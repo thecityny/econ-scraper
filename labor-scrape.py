@@ -52,7 +52,7 @@ rate_df[['month', 'Emp/Pop']].to_json('data/empPop.json', orient='records')
 
 # ## Unemployment rate
 
-# In[5]:
+# In[4]:
 
 
 #script to scrape new unemployment rate for us and merge it with old data and nyc data
@@ -97,7 +97,7 @@ merged_rate.to_json('data/rate.json', orient='records')
 
 # ## Job Recovery
 
-# In[7]:
+# In[5]:
 
 
 # direct download for NYC, no filtering needed
@@ -150,7 +150,7 @@ job_recovery.to_json('data/job_recovery.json', orient='records')
 
 # ## Earnings
 
-# In[8]:
+# In[6]:
 
 
 # direct download for NYC, no filtering needed
@@ -187,7 +187,7 @@ earnings=earnings[['month', 'weekly_earnings', 'pct_chng_earnings']]
 
 # #### inflation
 
-# In[9]:
+# In[7]:
 
 
 inflationURL="https://data.bls.gov/timeseries/CUURS12ASA0?output_view=pct_12mths&include_graphs=False"
@@ -233,7 +233,7 @@ real_earnings.to_json('data/earnings.json', orient='records')
 
 # ## INDUSTRY
 
-# In[10]:
+# In[8]:
 
 
 # 'Management, Scientific, and Technical Consulting Services'
@@ -310,17 +310,48 @@ cleaned_df=final_df[final_df.sector.isin(sectors)].reset_index(drop=True)
 cleaned_df.to_json('data/industry.json', orient='records')
 
 
-# # Office Occupancy
+# # Office and Hotel Occupancy
 
-# In[ ]:
+# In[9]:
 
 
 sheet_id = "1JLlcLJ_dKBct7zK804L-p7P_7SYlIRegBHSfIKs8ek0"
 sheet_name = "office_occupancy"
-url = f'https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}'
+officeURL = f'https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}'
 
-oc=pd.read_csv(url) 
+oc=pd.read_csv(officeURL) 
 oc=oc.replace("%", "", regex=True)
 oc=oc.melt(id_vars='week_ending').rename(columns={'variable':'metro', 'value':'occupancy'})
 oc.to_json('data/occupancy.json', orient='records')
+
+
+# In[10]:
+
+
+sheet_name = "hotel_occupancy"
+hotelURL = f'https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}'
+
+hotel=pd.read_csv(hotelURL) 
+demand=hotel[['period', 'demand2020', 'demand2021', 'demand2022']]
+change=hotel[['period', 'change2020', 'change2021', 'change2022']]
+
+demand.columns=demand.columns.str.replace('demand',"")
+change.columns=demand.columns.str.replace('change',"")
+
+melted_demand=demand.melt(id_vars='period').dropna().rename(
+    columns={'value':'demand', 'variable':'year'}).reset_index(drop=True)
+melted_change=change.melt(id_vars='period').dropna().rename(
+    columns={'value':'pct_chng', 'variable':'year'}).reset_index(drop=True)
+merged_hotel=pd.merge(melted_demand, melted_change, on=['period', 'year'])
+
+merged_hotel['month']=pd.to_datetime(merged_hotel.period+"-"+merged_hotel.year).dt.strftime("%Y-%m")
+final_hotel=merged_hotel[['month', 'demand', 'pct_chng']].reset_index(drop=True)
+
+final_hotel.to_json('data/hotel_demand.json', orient='records')
+
+
+# In[ ]:
+
+
+
 
