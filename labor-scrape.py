@@ -233,7 +233,7 @@ real_earnings.to_json('data/earnings.json', orient='records')
 
 # ## INDUSTRY
 
-# In[8]:
+# In[65]:
 
 
 # 'Management, Scientific, and Technical Consulting Services'
@@ -296,8 +296,8 @@ transposed['yoy_chng']=(((transposed.iloc[:, 1]-transposed.iloc[:, 13])/transpos
 transposed['2y_chng']=(((transposed.iloc[:, 1]-transposed.iloc[:, 25])/transposed.iloc[:, 25])*100).round(1)
 transposed['3y_chng']=(((transposed.iloc[:, 1]-transposed.iloc[:, 37])/transposed.iloc[:, 37])*100).round(1)
 
-final_df=transposed[['sector','yoy_chng', '2y_chng', '3y_chng']].sort_values(
-    '3y_chng', ascending=False).reset_index(drop=True)
+# final_df=transposed[['sector','yoy_chng', '2y_chng', '3y_chng']]
+final_df=transposed.iloc[:,[0,1, -1, -2, -3]].sort_values('3y_chng', ascending=False).reset_index(drop=True)
 
 sectors=['Finance and Insurance', 'Real Estate','Information', 'Professional, Scientific, and Technical Services',
          'Management of Companies and Enterprises', 'Administrative Services', 'Employment Services',
@@ -306,6 +306,9 @@ sectors=['Finance and Insurance', 'Real Estate','Information', 'Professional, Sc
          'Utilities','Construction', 'Manufacturing', 'Government']
 
 cleaned_df=final_df[final_df.sector.isin(sectors)].reset_index(drop=True)
+
+cleaned_df['month']=cleaned_df.columns[1]
+cleaned_df=cleaned_df.rename(columns={cleaned_df.columns[1]:'jobs'})
 
 cleaned_df.to_json('data/industry.json', orient='records')
 
@@ -348,6 +351,12 @@ merged_hotel['month']=pd.to_datetime(merged_hotel.period+"-"+merged_hotel.year).
 final_hotel=merged_hotel[['month', 'demand', 'pct_chng']].reset_index(drop=True)
 
 final_hotel.to_json('data/hotel_demand.json', orient='records')
+
+
+# In[59]:
+
+
+
 
 
 # In[ ]:
