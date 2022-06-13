@@ -1,0 +1,28 @@
+{
+  "name": "econ-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "turnstile-scrape.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecityny/econ-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecityny/econ-scraper/issues"
+  },
+  "homepage": "https://github.com/thecityny/econ-scraper#readme",
+  "dependencies": {
+    "@actions/core": "^1.8.2",
+    "axios": "^0.27.2",
+    "axios-retry": "^3.2.5",
+    "d3-array": "^3.1.6",
+    "d3-time": "^3.0.0",
+    "parse-link-header": "^2.0.0"
+  }
+}
