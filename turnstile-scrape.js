@@ -1,22 +1,23 @@
+import "dotenv/config";
+
 import core from "@actions/core";
 import fs from "fs";
-import axios from "axios";
-import axiosRetry from "axios-retry";
-import parseLinkHeader from "parse-link-header";
 import {utcDay, utcSaturday} from "d3-time";
 import {sum, rollup, mean} from "d3-array";
 
-// Configure retry for turnstile API, since scaling up the Aurora Serverless
-// database can cause first request to time out.
-axiosRetry(axios, {
-  retries: 2,
-  retryDelay: (retryCount) => {
-    console.log(`Retry attempt: ${retryCount}`);
-    return retryCount * 2000;
-  },
-  retryCondition: (error) => {
-    return error.response.status === 503;
-  }
+import axios from "axios";
+import axiosRetry from "axios-retry";
+import parseLinkHeader from "parse-link-header";
+
+import {HttpRequest} from "@aws-sdk/protocol-http";
+import {SignatureV4} from "@aws-sdk/signature-v4";
+import AWSCrypto from '@aws-crypto/sha256-js';
+const {Sha256} = AWSCrypto;
+
+const apiClient = getAuthenticatedClient("https://jqhw3hn5d8.execute-api.us-east-1.amazonaws.com/", {
+  region: process.env.AWS_REGION,
+  accessKeyId: process.env.AWS_ACCESS_KEY_ID, 
+  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
 });
 
 async function main() {
@@ -46,7 +47,7 @@ async function downloadDailyEntries(path, label) {
 // Download entries for the current week, previous week and 2019 average for each complex
 async function downloadComplexEntries(path, label) {
   // Get the latest available date from the API
-  const latestRequest = await axios.get("https://jqhw3hn5d8.execute-api.us-east-1.amazonaws.com/daily-complex-entries?per_page=1");
+  const latestRequest = await apiClient("/daily-complex-entries?per_page=1");
   const latestDate = new Date(parseISODateString(latestRequest.data[0].date));
 
   // Read or download 2019 average weekly complex entries
@@ -194,14 +195,14 @@ function groupByDateRange(dateRange, data = [], dateAccessor = d => d) {
 async function getEntries(sinceDate, untilDate) {
   const since = getISODateString(sinceDate);
   const until = getISODateString(untilDate);
-  return getPaginatedEntries("https://jqhw3hn5d8.execute-api.us-east-1.amazonaws.com", `/daily-entries?since=${since || ""}&until=${until || ""}&per_page=5000`);
+  return getPaginatedEntries(apiClient, `/daily-entries?since=${since || ""}&until=${until || ""}&per_page=5000`);
 }
 
 // Query complex entries from turnstile API
 async function getComplexEntries(sinceDate, untilDate) {
   const since = getISODateString(sinceDate);
   const until = getISODateString(untilDate);
-  return getPaginatedEntries("https://jqhw3hn5d8.execute-api.us-east-1.amazonaws.com", `/daily-complex-entries?since=${since || ""}&until=${until || ""}&per_page=5000`);
+  return getPaginatedEntries(apiClient, `/daily-complex-entries?since=${since || ""}&until=${until || ""}&per_page=5000`);
 }
 
 // Convert date value to "YYYY-MM-DD"
@@ -220,24 +221,72 @@ function parseISODateString(isoString) {
 }
 
 // Recursively get all data from paginated API
-async function getPaginatedEntries(baseURL, url, data = []) {
-  console.log(`Downloading ${baseURL}${url}`);
+async function getPaginatedEntries(client, url, data = []) {
+  console.log(`Downloading ${url}`);
 
-  try {
-    const response = await axios.get(url, {baseURL});
-    const newData = [].concat(data, response.data);
-    const links = parseLinkHeader(response.headers.link);
+  const response = await client(url);
+  const newData = [].concat(data, response.data);
+  const links = parseLinkHeader(response.headers.link);
 
-    // If there's a "next" link header, get the data at the URL
-    if (links && links.next) {
-      return getPaginatedEntries(baseURL, links.next.url, newData);
-    }
-
-    return newData;
-  } catch (error) {
-    console.error(error);
-    return data;
+  // If there's a "next" link header, get the data at the URL
+  if (links && links.next) {
+    return getPaginatedEntries(client, links.next.url, newData);
   }
+
+  return newData;
+}
+
+// Return function that accepts a relative URL and returns an authenticated
+// Axios GET request 
+function getAuthenticatedClient(base, {region, accessKeyId, secretAccessKey}) {
+  const client = axios.create();
+  
+  // Configure retry, since scaling up the Aurora Serverless database can cause 
+  // first request to time out.
+  axiosRetry(client, {
+    retries: 2,
+    retryDelay: (retryCount) => {
+      console.log(`Retry attempt: ${retryCount}`);
+      return retryCount * 2000;
+    },
+    retryCondition: (error) => {
+      return error.response.status === 503;
+    }
+  });
+
+  return async (path) => {
+    const url = new URL(path, base);
+
+    // Construct HttpRequest for signer
+    const request = new HttpRequest({
+      headers: {
+        host: url.host
+      },
+      hostname: url.hostname,
+      method: "GET",
+      path: url.pathname,
+      query: Object.fromEntries(url.searchParams)
+    });
+
+    // Sign request with the given credentials
+    const signer = new SignatureV4({
+      region,
+      credentials: {
+        accessKeyId, 
+        secretAccessKey
+      },
+      service: "execute-api",
+      sha256: Sha256,
+    });
+    const signedRequest = await signer.sign(request);
+
+    // Use the signed headers to build an Axios request
+    return client({
+      method: "get",
+      url: url.href,
+      headers: signedRequest.headers
+    });
+  };
 }
 
 main();

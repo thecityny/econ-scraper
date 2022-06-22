@@ -19,10 +19,16 @@
   "homepage": "https://github.com/thecityny/econ-scraper#readme",
   "dependencies": {
     "@actions/core": "^1.8.2",
+    "@aws-crypto/sha256-js": "^2.0.1",
+    "@aws-sdk/protocol-http": "^3.110.0",
+    "@aws-sdk/signature-v4": "^3.109.0",
     "axios": "^0.27.2",
     "axios-retry": "^3.2.5",
     "d3-array": "^3.1.6",
     "d3-time": "^3.0.0",
     "parse-link-header": "^2.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
   }
 }
