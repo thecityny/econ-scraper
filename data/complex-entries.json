@@ -1,2546 +1,2546 @@
 [
   {
     "id": 1,
-    "week": "2023-01-14",
-    "currentWeek": 36021,
+    "week": "2023-01-21",
+    "currentWeek": 37395,
     "baseline": 101387
   },
   {
     "id": 2,
-    "week": "2023-01-14",
-    "currentWeek": 22392,
+    "week": "2023-01-21",
+    "currentWeek": 23472,
     "baseline": 13580
   },
   {
     "id": 3,
-    "week": "2023-01-14",
-    "currentWeek": 29596,
+    "week": "2023-01-21",
+    "currentWeek": 30657,
     "baseline": 99445
   },
   {
     "id": 4,
-    "week": "2023-01-14",
-    "currentWeek": 26908,
+    "week": "2023-01-21",
+    "currentWeek": 28123,
     "baseline": 58386
   },
   {
     "id": 5,
-    "week": "2023-01-14",
-    "currentWeek": 15754,
+    "week": "2023-01-21",
+    "currentWeek": 16012,
     "baseline": 36480
   },
   {
     "id": 6,
-    "week": "2023-01-14",
-    "currentWeek": 7254,
+    "week": "2023-01-21",
+    "currentWeek": 7437,
     "baseline": 14940
   },
   {
     "id": 8,
-    "week": "2023-01-14",
-    "currentWeek": 30262,
+    "week": "2023-01-21",
+    "currentWeek": 31719,
     "baseline": 95028
   },
   {
     "id": 9,
-    "week": "2023-01-14",
-    "currentWeek": 65443,
+    "week": "2023-01-21",
+    "currentWeek": 68153,
     "baseline": 207931
   },
   {
     "id": 10,
-    "week": "2023-01-14",
-    "currentWeek": 43617,
+    "week": "2023-01-21",
+    "currentWeek": 43858,
     "baseline": 138820
   },
   {
     "id": 13,
-    "week": "2023-01-14",
-    "currentWeek": 21204,
+    "week": "2023-01-21",
+    "currentWeek": 21594,
     "baseline": 75749
   },
   {
     "id": 14,
-    "week": "2023-01-14",
-    "currentWeek": 33729,
+    "week": "2023-01-21",
+    "currentWeek": 35756,
     "baseline": 133952
   },
   {
     "id": 16,
-    "week": "2023-01-14",
-    "currentWeek": 25550,
+    "week": "2023-01-21",
+    "currentWeek": 28379,
     "baseline": 102325
   },
   {
     "id": 17,
-    "week": "2023-01-14",
-    "currentWeek": 21418,
+    "week": "2023-01-21",
+    "currentWeek": 21310,
     "baseline": 82127
   },
   {
     "id": 20,
-    "week": "2023-01-14",
-    "currentWeek": 10426,
+    "week": "2023-01-21",
+    "currentWeek": 11554,
     "baseline": 32825
   },
   {
     "id": 22,
-    "week": "2023-01-14",
-    "currentWeek": 9787,
+    "week": "2023-01-21",
+    "currentWeek": 9969,
     "baseline": 38695
   },
   {
     "id": 26,
-    "week": "2023-01-14",
-    "currentWeek": 43640,
+    "week": "2023-01-21",
+    "currentWeek": 44039,
     "baseline": 128702
   },
   {
     "id": 28,
-    "week": "2023-01-14",
-    "currentWeek": 15562,
+    "week": "2023-01-21",
+    "currentWeek": 16518,
     "baseline": 43277
   },
   {
     "id": 30,
-    "week": "2023-01-14",
-    "currentWeek": 13807,
+    "week": "2023-01-21",
+    "currentWeek": 14377,
     "baseline": 34009
   },
   {
     "id": 31,
-    "week": "2023-01-14",
-    "currentWeek": 9570,
+    "week": "2023-01-21",
+    "currentWeek": 9910,
     "baseline": 22173
   },
   {
     "id": 32,
-    "week": "2023-01-14",
-    "currentWeek": 41736,
+    "week": "2023-01-21",
+    "currentWeek": 40842,
     "baseline": 82033
   },
   {
     "id": 33,
-    "week": "2023-01-14",
-    "currentWeek": 23726,
+    "week": "2023-01-21",
+    "currentWeek": 25222,
     "baseline": 46993
   },
   {
     "id": 34,
-    "week": "2023-01-14",
-    "currentWeek": 26440,
+    "week": "2023-01-21",
+    "currentWeek": 27176,
     "baseline": 53391
   },
   {
     "id": 35,
-    "week": "2023-01-14",
-    "currentWeek": 36972,
+    "week": "2023-01-21",
+    "currentWeek": 37988,
     "baseline": 65571
   },
   {
     "id": 36,
-    "week": "2023-01-14",
-    "currentWeek": 22093,
+    "week": "2023-01-21",
+    "currentWeek": 22836,
     "baseline": 45340
   },
   {
     "id": 37,
-    "week": "2023-01-14",
-    "currentWeek": 13977,
+    "week": "2023-01-21",
+    "currentWeek": 14685,
     "baseline": 32408
   },
   {
     "id": 38,
-    "week": "2023-01-14",
-    "currentWeek": 33374,
+    "week": "2023-01-21",
+    "currentWeek": 34129,
     "baseline": 66421
   },
   {
     "id": 39,
-    "week": "2023-01-14",
-    "currentWeek": 14468,
+    "week": "2023-01-21",
+    "currentWeek": 15542,
     "baseline": 34033
   },
   {
     "id": 41,
-    "week": "2023-01-14",
-    "currentWeek": 18790,
+    "week": "2023-01-21",
+    "currentWeek": 19585,
     "baseline": 59177
   },
   {
     "id": 42,
-    "week": "2023-01-14",
-    "currentWeek": 22825,
+    "week": "2023-01-21",
+    "currentWeek": 23975,
     "baseline": 64065
   },
   {
     "id": 43,
-    "week": "2023-01-14",
-    "currentWeek": 14609,
+    "week": "2023-01-21",
+    "currentWeek": 15122,
     "baseline": 37415
   },
   {
     "id": 44,
-    "week": "2023-01-14",
-    "currentWeek": 38844,
+    "week": "2023-01-21",
+    "currentWeek": 40249,
     "baseline": 96689
   },
   {
     "id": 45,
-    "week": "2023-01-14",
-    "currentWeek": 8996,
+    "week": "2023-01-21",
+    "currentWeek": 9214,
     "baseline": 20169
   },
   {
     "id": 46,
-    "week": "2023-01-14",
-    "currentWeek": 15360,
+    "week": "2023-01-21",
+    "currentWeek": 15392,
     "baseline": 37701
   },
   {
     "id": 47,
-    "week": "2023-01-14",
-    "currentWeek": 26433,
+    "week": "2023-01-21",
+    "currentWeek": 27172,
     "baseline": 62860
   },
   {
     "id": 48,
-    "week": "2023-01-14",
-    "currentWeek": 7603,
+    "week": "2023-01-21",
+    "currentWeek": 7666,
     "baseline": 19081
   },
   {
     "id": 49,
-    "week": "2023-01-14",
-    "currentWeek": 15799,
+    "week": "2023-01-21",
+    "currentWeek": 15600,
     "baseline": 34221
   },
   {
     "id": 50,
-    "week": "2023-01-14",
-    "currentWeek": 16787,
+    "week": "2023-01-21",
+    "currentWeek": 16320,
     "baseline": 32750
   },
   {
     "id": 51,
-    "week": "2023-01-14",
-    "currentWeek": 54457,
+    "week": "2023-01-21",
+    "currentWeek": 54190,
     "baseline": 114354
   },
   {
     "id": 52,
-    "week": "2023-01-14",
-    "currentWeek": 21414,
+    "week": "2023-01-21",
+    "currentWeek": 20744,
     "baseline": 44646
   },
   {
     "id": 53,
-    "week": "2023-01-14",
-    "currentWeek": 12310,
+    "week": "2023-01-21",
+    "currentWeek": 12062,
     "baseline": 26618
   },
   {
     "id": 54,
-    "week": "2023-01-14",
-    "currentWeek": 33804,
+    "week": "2023-01-21",
+    "currentWeek": 34706,
     "baseline": 80344
   },
   {
     "id": 55,
-    "week": "2023-01-14",
-    "currentWeek": 30796,
+    "week": "2023-01-21",
+    "currentWeek": 31935,
     "baseline": 72078
   },
   {
     "id": 56,
-    "week": "2023-01-14",
-    "currentWeek": 9319,
+    "week": "2023-01-21",
+    "currentWeek": 9262,
     "baseline": 19949
   },
   {
     "id": 57,
-    "week": "2023-01-14",
-    "currentWeek": 5499,
+    "week": "2023-01-21",
+    "currentWeek": 5926,
     "baseline": 15952
   },
   {
     "id": 58,
-    "week": "2023-01-14",
-    "currentWeek": 38082,
+    "week": "2023-01-21",
+    "currentWeek": 38177,
     "baseline": 88986
   },
   {
     "id": 59,
-    "week": "2023-01-14",
-    "currentWeek": 16914,
+    "week": "2023-01-21",
+    "currentWeek": 16853,
     "baseline": 32839
   },
   {
     "id": 60,
-    "week": "2023-01-14",
-    "currentWeek": 12779,
+    "week": "2023-01-21",
+    "currentWeek": 12489,
     "baseline": 23216
   },
   {
     "id": 61,
-    "week": "2023-01-14",
-    "currentWeek": 10989,
+    "week": "2023-01-21",
+    "currentWeek": 10703,
     "baseline": 18768
   },
   {
     "id": 62,
-    "week": "2023-01-14",
-    "currentWeek": 6461,
+    "week": "2023-01-21",
+    "currentWeek": 6502,
     "baseline": 12354
   },
   {
     "id": 64,
-    "week": "2023-01-14",
-    "currentWeek": 15650,
+    "week": "2023-01-21",
+    "currentWeek": 15053,
     "baseline": 33274
   },
   {
     "id": 65,
-    "week": "2023-01-14",
-    "currentWeek": 19468,
+    "week": "2023-01-21",
+    "currentWeek": 18771,
     "baseline": 37106
   },
   {
     "id": 66,
-    "week": "2023-01-14",
-    "currentWeek": 19012,
+    "week": "2023-01-21",
+    "currentWeek": 18697,
     "baseline": 37440
   },
   {
     "id": 67,
-    "week": "2023-01-14",
-    "currentWeek": 15489,
+    "week": "2023-01-21",
+    "currentWeek": 15169,
     "baseline": 30404
   },
   {
     "id": 68,
-    "week": "2023-01-14",
-    "currentWeek": 24809,
+    "week": "2023-01-21",
+    "currentWeek": 23880,
     "baseline": 47253
   },
   {
     "id": 69,
-    "week": "2023-01-14",
-    "currentWeek": 14607,
+    "week": "2023-01-21",
+    "currentWeek": 13287,
     "baseline": 29320
   },
   {
     "id": 70,
-    "week": "2023-01-14",
-    "currentWeek": 9368,
+    "week": "2023-01-21",
+    "currentWeek": 8811,
     "baseline": 15997
   },
   {
     "id": 71,
-    "week": "2023-01-14",
-    "currentWeek": 37547,
+    "week": "2023-01-21",
+    "currentWeek": 33356,
     "baseline": 72365
   },
   {
     "id": 72,
-    "week": "2023-01-14",
-    "currentWeek": 20249,
+    "week": "2023-01-21",
+    "currentWeek": 19953,
     "baseline": 25982
   },
   {
     "id": 74,
-    "week": "2023-01-14",
-    "currentWeek": 16818,
+    "week": "2023-01-21",
+    "currentWeek": 16600,
     "baseline": 22838
   },
   {
     "id": 75,
-    "week": "2023-01-14",
-    "currentWeek": 12992,
+    "week": "2023-01-21",
+    "currentWeek": 12626,
     "baseline": 21947
   },
   {
     "id": 76,
-    "week": "2023-01-14",
-    "currentWeek": 21524,
+    "week": "2023-01-21",
+    "currentWeek": 21296,
     "baseline": 39901
   },
   {
     "id": 77,
-    "week": "2023-01-14",
-    "currentWeek": 19014,
+    "week": "2023-01-21",
+    "currentWeek": 16674,
     "baseline": 26776
   },
   {
     "id": 78,
-    "week": "2023-01-14",
-    "currentWeek": 10221,
+    "week": "2023-01-21",
+    "currentWeek": 12327,
     "baseline": 19662
   },
   {
     "id": 79,
-    "week": "2023-01-14",
-    "currentWeek": 6997,
+    "week": "2023-01-21",
+    "currentWeek": 8412,
     "baseline": 13802
   },
   {
     "id": 80,
-    "week": "2023-01-14",
-    "currentWeek": 7170,
+    "week": "2023-01-21",
+    "currentWeek": 7633,
     "baseline": 13102
   },
   {
     "id": 81,
-    "week": "2023-01-14",
-    "currentWeek": 6839,
+    "week": "2023-01-21",
+    "currentWeek": 7000,
     "baseline": 6762
   },
   {
     "id": 82,
-    "week": "2023-01-14",
-    "currentWeek": 8058,
+    "week": "2023-01-21",
+    "currentWeek": 8271,
     "baseline": 14995
   },
   {
     "id": 83,
-    "week": "2023-01-14",
-    "currentWeek": 13721,
+    "week": "2023-01-21",
+    "currentWeek": 14012,
     "baseline": 25684
   },
   {
     "id": 84,
-    "week": "2023-01-14",
-    "currentWeek": 10555,
+    "week": "2023-01-21",
+    "currentWeek": 10904,
     "baseline": 20541
   },
   {
     "id": 85,
-    "week": "2023-01-14",
-    "currentWeek": 9285,
+    "week": "2023-01-21",
+    "currentWeek": 9428,
     "baseline": 19808
   },
   {
     "id": 86,
-    "week": "2023-01-14",
-    "currentWeek": 4381,
+    "week": "2023-01-21",
+    "currentWeek": 4324,
     "baseline": 8157
   },
   {
     "id": 87,
-    "week": "2023-01-14",
-    "currentWeek": 10894,
+    "week": "2023-01-21",
+    "currentWeek": 11058,
     "baseline": 26803
   },
   {
     "id": 88,
-    "week": "2023-01-14",
-    "currentWeek": 7011,
+    "week": "2023-01-21",
+    "currentWeek": 7362,
     "baseline": 18231
   },
   {
     "id": 89,
-    "week": "2023-01-14",
-    "currentWeek": 6947,
+    "week": "2023-01-21",
+    "currentWeek": 7073,
     "baseline": 16960
   },
   {
     "id": 90,
-    "week": "2023-01-14",
-    "currentWeek": 7104,
+    "week": "2023-01-21",
+    "currentWeek": 7539,
     "baseline": 15103
   },
   {
     "id": 91,
-    "week": "2023-01-14",
-    "currentWeek": 6179,
+    "week": "2023-01-21",
+    "currentWeek": 6410,
     "baseline": 12444
   },
   {
     "id": 93,
-    "week": "2023-01-14",
-    "currentWeek": 7229,
+    "week": "2023-01-21",
+    "currentWeek": 7659,
     "baseline": 20757
   },
   {
     "id": 94,
-    "week": "2023-01-14",
-    "currentWeek": 12459,
+    "week": "2023-01-21",
+    "currentWeek": 12604,
     "baseline": 40589
   },
   {
     "id": 95,
-    "week": "2023-01-14",
-    "currentWeek": 14281,
+    "week": "2023-01-21",
+    "currentWeek": 14751,
     "baseline": 43343
   },
   {
     "id": 96,
-    "week": "2023-01-14",
-    "currentWeek": 10326,
+    "week": "2023-01-21",
+    "currentWeek": 10809,
     "baseline": 34288
   },
   {
     "id": 97,
-    "week": "2023-01-14",
-    "currentWeek": 23155,
+    "week": "2023-01-21",
+    "currentWeek": 25474,
     "baseline": 73915
   },
   {
     "id": 98,
-    "week": "2023-01-14",
-    "currentWeek": 20834,
+    "week": "2023-01-21",
+    "currentWeek": 22379,
     "baseline": 53254
   },
   {
     "id": 99,
-    "week": "2023-01-14",
-    "currentWeek": 11914,
+    "week": "2023-01-21",
+    "currentWeek": 12256,
     "baseline": 33468
   },
   {
     "id": 100,
-    "week": "2023-01-14",
-    "currentWeek": 6324,
+    "week": "2023-01-21",
+    "currentWeek": 6717,
     "baseline": 21317
   },
   {
     "id": 101,
-    "week": "2023-01-14",
-    "currentWeek": 27958,
+    "week": "2023-01-21",
+    "currentWeek": 29614,
     "baseline": 89514
   },
   {
     "id": 103,
-    "week": "2023-01-14",
-    "currentWeek": 7762,
+    "week": "2023-01-21",
+    "currentWeek": 7183,
     "baseline": 24732
   },
   {
     "id": 107,
-    "week": "2023-01-14",
-    "currentWeek": 11614,
+    "week": "2023-01-21",
+    "currentWeek": 12499,
     "baseline": 42165
   },
   {
     "id": 108,
-    "week": "2023-01-14",
-    "currentWeek": 11741,
+    "week": "2023-01-21",
+    "currentWeek": 12010,
     "baseline": 21179
   },
   {
     "id": 109,
-    "week": "2023-01-14",
-    "currentWeek": 15162,
+    "week": "2023-01-21",
+    "currentWeek": 15554,
     "baseline": 34567
   },
   {
     "id": 110,
-    "week": "2023-01-14",
-    "currentWeek": 11263,
+    "week": "2023-01-21",
+    "currentWeek": 11782,
     "baseline": 25239
   },
   {
     "id": 111,
-    "week": "2023-01-14",
-    "currentWeek": 7835,
+    "week": "2023-01-21",
+    "currentWeek": 8446,
     "baseline": 20690
   },
   {
     "id": 113,
-    "week": "2023-01-14",
-    "currentWeek": 11189,
+    "week": "2023-01-21",
+    "currentWeek": 11724,
     "baseline": 29336
   },
   {
     "id": 114,
-    "week": "2023-01-14",
-    "currentWeek": 8112,
+    "week": "2023-01-21",
+    "currentWeek": 8603,
     "baseline": 27774
   },
   {
     "id": 118,
-    "week": "2023-01-14",
-    "currentWeek": 9480,
+    "week": "2023-01-21",
+    "currentWeek": 10137,
     "baseline": 31880
   },
   {
     "id": 119,
-    "week": "2023-01-14",
-    "currentWeek": 35818,
+    "week": "2023-01-21",
+    "currentWeek": 37060,
     "baseline": 100646
   },
   {
     "id": 120,
-    "week": "2023-01-14",
-    "currentWeek": 36926,
+    "week": "2023-01-21",
+    "currentWeek": 37293,
     "baseline": 148012
   },
   {
     "id": 122,
-    "week": "2023-01-14",
-    "currentWeek": 13406,
+    "week": "2023-01-21",
+    "currentWeek": 14532,
     "baseline": 51395
   },
   {
     "id": 123,
-    "week": "2023-01-14",
-    "currentWeek": 13709,
+    "week": "2023-01-21",
+    "currentWeek": 13772,
     "baseline": 35781
   },
   {
     "id": 124,
-    "week": "2023-01-14",
-    "currentWeek": 10879,
+    "week": "2023-01-21",
+    "currentWeek": 11214,
     "baseline": 36805
   },
   {
     "id": 125,
-    "week": "2023-01-14",
-    "currentWeek": 10255,
+    "week": "2023-01-21",
+    "currentWeek": 10148,
     "baseline": 39813
   },
   {
     "id": 126,
-    "week": "2023-01-14",
-    "currentWeek": 12104,
+    "week": "2023-01-21",
+    "currentWeek": 12385,
     "baseline": 42362
   },
   {
     "id": 127,
-    "week": "2023-01-14",
-    "currentWeek": 20359,
+    "week": "2023-01-21",
+    "currentWeek": 21356,
     "baseline": 61982
   },
   {
     "id": 129,
-    "week": "2023-01-14",
-    "currentWeek": 19221,
+    "week": "2023-01-21",
+    "currentWeek": 19553,
     "baseline": 41529
   },
   {
     "id": 130,
-    "week": "2023-01-14",
-    "currentWeek": 9702,
+    "week": "2023-01-21",
+    "currentWeek": 9876,
     "baseline": 24911
   },
   {
     "id": 131,
-    "week": "2023-01-14",
-    "currentWeek": 5583,
+    "week": "2023-01-21",
+    "currentWeek": 5685,
     "baseline": 11553
   },
   {
     "id": 133,
-    "week": "2023-01-14",
-    "currentWeek": 4278,
+    "week": "2023-01-21",
+    "currentWeek": 5229,
     "baseline": 9433
   },
   {
     "id": 134,
-    "week": "2023-01-14",
-    "currentWeek": 7762,
+    "week": "2023-01-21",
+    "currentWeek": 7864,
     "baseline": 20156
   },
   {
     "id": 135,
-    "week": "2023-01-14",
-    "currentWeek": 8663,
+    "week": "2023-01-21",
+    "currentWeek": 9744,
     "baseline": 16469
   },
   {
     "id": 136,
-    "week": "2023-01-14",
-    "currentWeek": 10028,
+    "week": "2023-01-21",
+    "currentWeek": 11028,
     "baseline": 23692
   },
   {
     "id": 137,
-    "week": "2023-01-14",
-    "currentWeek": 8135,
+    "week": "2023-01-21",
+    "currentWeek": 8708,
     "baseline": 19394
   },
   {
     "id": 138,
-    "week": "2023-01-14",
-    "currentWeek": 10212,
+    "week": "2023-01-21",
+    "currentWeek": 11187,
     "baseline": 64212
   },
   {
     "id": 141,
-    "week": "2023-01-14",
-    "currentWeek": 3346,
+    "week": "2023-01-21",
+    "currentWeek": 4038,
     "baseline": 9940
   },
   {
     "id": 143,
-    "week": "2023-01-14",
-    "currentWeek": 21602,
+    "week": "2023-01-21",
+    "currentWeek": 22720,
     "baseline": 61840
   },
   {
     "id": 144,
-    "week": "2023-01-14",
-    "currentWeek": 15114,
+    "week": "2023-01-21",
+    "currentWeek": 14942,
     "baseline": 42859
   },
   {
     "id": 145,
-    "week": "2023-01-14",
-    "currentWeek": 9912,
+    "week": "2023-01-21",
+    "currentWeek": 10819,
     "baseline": 29027
   },
   {
     "id": 146,
-    "week": "2023-01-14",
-    "currentWeek": 21531,
+    "week": "2023-01-21",
+    "currentWeek": 22813,
     "baseline": 65156
   },
   {
     "id": 147,
-    "week": "2023-01-14",
-    "currentWeek": 26216,
+    "week": "2023-01-21",
+    "currentWeek": 27530,
     "baseline": 80053
   },
   {
     "id": 149,
-    "week": "2023-01-14",
-    "currentWeek": 10035,
+    "week": "2023-01-21",
+    "currentWeek": 10198,
     "baseline": 26592
   },
   {
     "id": 150,
-    "week": "2023-01-14",
-    "currentWeek": 6415,
+    "week": "2023-01-21",
+    "currentWeek": 6757,
     "baseline": 17265
   },
   {
     "id": 151,
-    "week": "2023-01-14",
-    "currentWeek": 52043,
+    "week": "2023-01-21",
+    "currentWeek": 55337,
     "baseline": 141237
   },
   {
     "id": 152,
-    "week": "2023-01-14",
-    "currentWeek": 11585,
+    "week": "2023-01-21",
+    "currentWeek": 12025,
     "baseline": 33587
   },
   {
     "id": 153,
-    "week": "2023-01-14",
-    "currentWeek": 62052,
+    "week": "2023-01-21",
+    "currentWeek": 65789,
     "baseline": 174110
   },
   {
     "id": 154,
-    "week": "2023-01-14",
-    "currentWeek": 15760,
+    "week": "2023-01-21",
+    "currentWeek": 16056,
     "baseline": 43713
   },
   {
     "id": 155,
-    "week": "2023-01-14",
-    "currentWeek": 15639,
+    "week": "2023-01-21",
+    "currentWeek": 16648,
     "baseline": 45720
   },
   {
     "id": 156,
-    "week": "2023-01-14",
-    "currentWeek": 10128,
+    "week": "2023-01-21",
+    "currentWeek": 10591,
     "baseline": 28652
   },
   {
     "id": 157,
-    "week": "2023-01-14",
-    "currentWeek": 20549,
+    "week": "2023-01-21",
+    "currentWeek": 22012,
     "baseline": 58056
   },
   {
     "id": 158,
-    "week": "2023-01-14",
-    "currentWeek": 22188,
+    "week": "2023-01-21",
+    "currentWeek": 23933,
     "baseline": 61333
   },
   {
     "id": 159,
-    "week": "2023-01-14",
-    "currentWeek": 29165,
+    "week": "2023-01-21",
+    "currentWeek": 29142,
     "baseline": 82748
   },
   {
     "id": 160,
-    "week": "2023-01-14",
-    "currentWeek": 16134,
+    "week": "2023-01-21",
+    "currentWeek": 17314,
     "baseline": 54150
   },
   {
     "id": 162,
-    "week": "2023-01-14",
-    "currentWeek": 41268,
+    "week": "2023-01-21",
+    "currentWeek": 43841,
     "baseline": 130723
   },
   {
     "id": 164,
-    "week": "2023-01-14",
-    "currentWeek": 148249,
+    "week": "2023-01-21",
+    "currentWeek": 159656,
     "baseline": 491863
   },
   {
     "id": 165,
-    "week": "2023-01-14",
-    "currentWeek": 35961,
+    "week": "2023-01-21",
+    "currentWeek": 40050,
     "baseline": 137425
   },
   {
     "id": 167,
-    "week": "2023-01-14",
-    "currentWeek": 70883,
+    "week": "2023-01-21",
+    "currentWeek": 74368,
     "baseline": 261263
   },
   {
     "id": 168,
-    "week": "2023-01-14",
-    "currentWeek": 20024,
+    "week": "2023-01-21",
+    "currentWeek": 22587,
     "baseline": 83790
   },
   {
     "id": 169,
-    "week": "2023-01-14",
-    "currentWeek": 33195,
+    "week": "2023-01-21",
+    "currentWeek": 34855,
     "baseline": 121111
   },
   {
     "id": 173,
-    "week": "2023-01-14",
-    "currentWeek": 17033,
+    "week": "2023-01-21",
+    "currentWeek": 18182,
     "baseline": 67306
   },
   {
     "id": 175,
-    "week": "2023-01-14",
-    "currentWeek": 25348,
+    "week": "2023-01-21",
+    "currentWeek": 26287,
     "baseline": 69645
   },
   {
     "id": 176,
-    "week": "2023-01-14",
-    "currentWeek": 10834,
+    "week": "2023-01-21",
+    "currentWeek": 10864,
     "baseline": 29928
   },
   {
     "id": 177,
-    "week": "2023-01-14",
-    "currentWeek": 12740,
+    "week": "2023-01-21",
+    "currentWeek": 14464,
     "baseline": 40932
   },
   {
     "id": 179,
-    "week": "2023-01-14",
-    "currentWeek": 30456,
+    "week": "2023-01-21",
+    "currentWeek": 37270,
     "baseline": 107817
   },
   {
     "id": 180,
-    "week": "2023-01-14",
-    "currentWeek": 13082,
+    "week": "2023-01-21",
+    "currentWeek": 13942,
     "baseline": 39627
   },
   {
     "id": 181,
-    "week": "2023-01-14",
-    "currentWeek": 31122,
+    "week": "2023-01-21",
+    "currentWeek": 33914,
     "baseline": 98687
   },
   {
     "id": 182,
-    "week": "2023-01-14",
-    "currentWeek": 11904,
+    "week": "2023-01-21",
+    "currentWeek": 12911,
     "baseline": 35156
   },
   {
     "id": 183,
-    "week": "2023-01-14",
-    "currentWeek": 12288,
+    "week": "2023-01-21",
+    "currentWeek": 13259,
     "baseline": 34480
   },
   {
     "id": 185,
-    "week": "2023-01-14",
-    "currentWeek": 7581,
+    "week": "2023-01-21",
+    "currentWeek": 7811,
     "baseline": 16227
   },
   {
     "id": 186,
-    "week": "2023-01-14",
-    "currentWeek": 7034,
+    "week": "2023-01-21",
+    "currentWeek": 7331,
     "baseline": 17888
   },
   {
     "id": 187,
-    "week": "2023-01-14",
-    "currentWeek": 7551,
+    "week": "2023-01-21",
+    "currentWeek": 7940,
     "baseline": 18970
   },
   {
     "id": 188,
-    "week": "2023-01-14",
-    "currentWeek": 27445,
+    "week": "2023-01-21",
+    "currentWeek": 30545,
     "baseline": 63616
   },
   {
     "id": 189,
-    "week": "2023-01-14",
-    "currentWeek": 15275,
+    "week": "2023-01-21",
+    "currentWeek": 16476,
     "baseline": 34231
   },
   {
     "id": 190,
-    "week": "2023-01-14",
-    "currentWeek": 10930,
+    "week": "2023-01-21",
+    "currentWeek": 11542,
     "baseline": 25123
   },
   {
     "id": 191,
-    "week": "2023-01-14",
-    "currentWeek": 7623,
+    "week": "2023-01-21",
+    "currentWeek": 7903,
     "baseline": 16572
   },
   {
     "id": 192,
-    "week": "2023-01-14",
-    "currentWeek": 20369,
+    "week": "2023-01-21",
+    "currentWeek": 21092,
     "baseline": 44778
   },
   {
     "id": 193,
-    "week": "2023-01-14",
-    "currentWeek": 5192,
+    "week": "2023-01-21",
+    "currentWeek": 5613,
     "baseline": 10409
   },
   {
     "id": 194,
-    "week": "2023-01-14",
-    "currentWeek": 6607,
+    "week": "2023-01-21",
+    "currentWeek": 6046,
     "baseline": 14752
   },
   {
     "id": 195,
-    "week": "2023-01-14",
-    "currentWeek": 19753,
+    "week": "2023-01-21",
+    "currentWeek": 21342,
     "baseline": 43653
   },
   {
     "id": 196,
-    "week": "2023-01-14",
-    "currentWeek": 3043,
+    "week": "2023-01-21",
+    "currentWeek": 3310,
     "baseline": 11198
   },
   {
     "id": 197,
-    "week": "2023-01-14",
-    "currentWeek": 2317,
+    "week": "2023-01-21",
+    "currentWeek": 2402,
     "baseline": 5176
   },
   {
     "id": 198,
-    "week": "2023-01-14",
-    "currentWeek": 17279,
+    "week": "2023-01-21",
+    "currentWeek": 15401,
     "baseline": 28018
   },
   {
     "id": 199,
-    "week": "2023-01-14",
-    "currentWeek": 771,
+    "week": "2023-01-21",
+    "currentWeek": 814,
     "baseline": 1837
   },
   {
     "id": 200,
-    "week": "2023-01-14",
-    "currentWeek": 1798,
+    "week": "2023-01-21",
+    "currentWeek": 1902,
     "baseline": 6795
   },
   {
     "id": 201,
-    "week": "2023-01-14",
-    "currentWeek": 1257,
+    "week": "2023-01-21",
+    "currentWeek": 1273,
     "baseline": 3215
   },
   {
     "id": 202,
-    "week": "2023-01-14",
-    "currentWeek": 576,
+    "week": "2023-01-21",
+    "currentWeek": 625,
     "baseline": 1748
   },
   {
     "id": 203,
-    "week": "2023-01-14",
-    "currentWeek": 1998,
+    "week": "2023-01-21",
+    "currentWeek": 2122,
     "baseline": 4598
   },
   {
     "id": 204,
-    "week": "2023-01-14",
-    "currentWeek": 5713,
+    "week": "2023-01-21",
+    "currentWeek": 6268,
     "baseline": 14012
   },
   {
     "id": 205,
-    "week": "2023-01-14",
-    "currentWeek": 5267,
+    "week": "2023-01-21",
+    "currentWeek": 5495,
     "baseline": 12127
   },
   {
     "id": 206,
-    "week": "2023-01-14",
-    "currentWeek": 2037,
+    "week": "2023-01-21",
+    "currentWeek": 2174,
     "baseline": 4315
   },
   {
     "id": 207,
-    "week": "2023-01-14",
-    "currentWeek": 2738,
+    "week": "2023-01-21",
+    "currentWeek": 2823,
     "baseline": 5727
   },
   {
     "id": 208,
-    "week": "2023-01-14",
-    "currentWeek": 4875,
+    "week": "2023-01-21",
+    "currentWeek": 4959,
     "baseline": 10131
   },
   {
     "id": 209,
-    "week": "2023-01-14",
-    "currentWeek": 12559,
+    "week": "2023-01-21",
+    "currentWeek": 13044,
     "baseline": 26019
   },
   {
     "id": 210,
-    "week": "2023-01-14",
-    "currentWeek": 19617,
+    "week": "2023-01-21",
+    "currentWeek": 17766,
     "baseline": 50907
   },
   {
     "id": 211,
-    "week": "2023-01-14",
-    "currentWeek": 17303,
+    "week": "2023-01-21",
+    "currentWeek": 15467,
     "baseline": 42173
   },
   {
     "id": 212,
-    "week": "2023-01-14",
-    "currentWeek": 16003,
+    "week": "2023-01-21",
+    "currentWeek": 14831,
     "baseline": 47639
   },
   {
     "id": 213,
-    "week": "2023-01-14",
-    "currentWeek": 28530,
+    "week": "2023-01-21",
+    "currentWeek": 25432,
     "baseline": 70682
   },
   {
     "id": 214,
-    "week": "2023-01-14",
-    "currentWeek": 13364,
+    "week": "2023-01-21",
+    "currentWeek": 11162,
     "baseline": 29052
   },
   {
     "id": 215,
-    "week": "2023-01-14",
-    "currentWeek": 19523,
+    "week": "2023-01-21",
+    "currentWeek": 17171,
     "baseline": 58591
   },
   {
     "id": 216,
-    "week": "2023-01-14",
-    "currentWeek": 12486,
+    "week": "2023-01-21",
+    "currentWeek": 11076,
     "baseline": 29165
   },
   {
     "id": 217,
-    "week": "2023-01-14",
-    "currentWeek": 16275,
+    "week": "2023-01-21",
+    "currentWeek": 13641,
     "baseline": 40619
   },
   {
     "id": 218,
-    "week": "2023-01-14",
-    "currentWeek": 22106,
+    "week": "2023-01-21",
+    "currentWeek": 18656,
     "baseline": 53078
   },
   {
     "id": 220,
-    "week": "2023-01-14",
-    "currentWeek": 8677,
+    "week": "2023-01-21",
+    "currentWeek": 8885,
     "baseline": 21712
   },
   {
     "id": 221,
-    "week": "2023-01-14",
-    "currentWeek": 27023,
+    "week": "2023-01-21",
+    "currentWeek": 29325,
     "baseline": 67374
   },
   {
     "id": 222,
-    "week": "2023-01-14",
-    "currentWeek": 20943,
+    "week": "2023-01-21",
+    "currentWeek": 21824,
     "baseline": 45440
   },
   {
     "id": 223,
-    "week": "2023-01-14",
-    "currentWeek": 40805,
+    "week": "2023-01-21",
+    "currentWeek": 45122,
     "baseline": 124851
   },
   {
     "id": 224,
-    "week": "2023-01-14",
-    "currentWeek": 29040,
+    "week": "2023-01-21",
+    "currentWeek": 29176,
     "baseline": 85808
   },
   {
     "id": 225,
-    "week": "2023-01-14",
-    "currentWeek": 105843,
+    "week": "2023-01-21",
+    "currentWeek": 109894,
     "baseline": 351575
   },
   {
     "id": 228,
-    "week": "2023-01-14",
-    "currentWeek": 52231,
+    "week": "2023-01-21",
+    "currentWeek": 53423,
     "baseline": 160182
   },
   {
     "id": 231,
-    "week": "2023-01-14",
-    "currentWeek": 71892,
+    "week": "2023-01-21",
+    "currentWeek": 65120,
     "baseline": 151402
   },
   {
     "id": 232,
-    "week": "2023-01-14",
-    "currentWeek": 31873,
+    "week": "2023-01-21",
+    "currentWeek": 32362,
     "baseline": 104663
   },
   {
     "id": 234,
-    "week": "2023-01-14",
-    "currentWeek": 33275,
+    "week": "2023-01-21",
+    "currentWeek": 35272,
     "baseline": 84618
   },
   {
     "id": 235,
-    "week": "2023-01-14",
-    "currentWeek": 21380,
+    "week": "2023-01-21",
+    "currentWeek": 22656,
     "baseline": 74486
   },
   {
     "id": 236,
-    "week": "2023-01-14",
-    "currentWeek": 23517,
+    "week": "2023-01-21",
+    "currentWeek": 24616,
     "baseline": 67493
   },
   {
     "id": 237,
-    "week": "2023-01-14",
-    "currentWeek": 23456,
+    "week": "2023-01-21",
+    "currentWeek": 24959,
     "baseline": 68533
   },
   {
     "id": 238,
-    "week": "2023-01-14",
+    "week": "2023-01-21",
     "currentWeek": 10844,
     "baseline": 27461
   },
   {
     "id": 240,
-    "week": "2023-01-14",
-    "currentWeek": 25219,
+    "week": "2023-01-21",
+    "currentWeek": 26332,
     "baseline": 70121
   },
   {
     "id": 241,
-    "week": "2023-01-14",
-    "currentWeek": 13480,
+    "week": "2023-01-21",
+    "currentWeek": 14035,
     "baseline": 37549
   },
   {
     "id": 242,
-    "week": "2023-01-14",
-    "currentWeek": 14083,
+    "week": "2023-01-21",
+    "currentWeek": 14759,
     "baseline": 34498
   },
   {
     "id": 243,
-    "week": "2023-01-14",
-    "currentWeek": 26643,
+    "week": "2023-01-21",
+    "currentWeek": 26986,
     "baseline": 59605
   },
   {
     "id": 244,
-    "week": "2023-01-14",
-    "currentWeek": 11454,
+    "week": "2023-01-21",
+    "currentWeek": 11354,
     "baseline": 22418
   },
   {
     "id": 245,
-    "week": "2023-01-14",
-    "currentWeek": 10667,
+    "week": "2023-01-21",
+    "currentWeek": 10769,
     "baseline": 21469
   },
   {
     "id": 246,
-    "week": "2023-01-14",
-    "currentWeek": 6085,
+    "week": "2023-01-21",
+    "currentWeek": 5745,
     "baseline": 11290
   },
   {
     "id": 247,
-    "week": "2023-01-14",
-    "currentWeek": 4070,
+    "week": "2023-01-21",
+    "currentWeek": 3946,
     "baseline": 7067
   },
   {
     "id": 248,
-    "week": "2023-01-14",
-    "currentWeek": 8508,
+    "week": "2023-01-21",
+    "currentWeek": 8285,
     "baseline": 16995
   },
   {
     "id": 249,
-    "week": "2023-01-14",
-    "currentWeek": 7173,
+    "week": "2023-01-21",
+    "currentWeek": 7250,
     "baseline": 14331
   },
   {
     "id": 250,
-    "week": "2023-01-14",
-    "currentWeek": 10323,
+    "week": "2023-01-21",
+    "currentWeek": 10806,
     "baseline": 21708
   },
   {
     "id": 251,
-    "week": "2023-01-14",
-    "currentWeek": 6222,
+    "week": "2023-01-21",
+    "currentWeek": 4223,
     "baseline": 10649
   },
   {
     "id": 252,
-    "week": "2023-01-14",
-    "currentWeek": 8045,
+    "week": "2023-01-21",
+    "currentWeek": 6707,
     "baseline": 15228
   },
   {
     "id": 253,
-    "week": "2023-01-14",
-    "currentWeek": 4905,
+    "week": "2023-01-21",
+    "currentWeek": 4249,
     "baseline": 8357
   },
   {
     "id": 254,
-    "week": "2023-01-14",
-    "currentWeek": 56124,
+    "week": "2023-01-21",
+    "currentWeek": 59303,
     "baseline": 122221
   },
   {
     "id": 255,
-    "week": "2023-01-14",
-    "currentWeek": 21823,
+    "week": "2023-01-21",
+    "currentWeek": 22107,
     "baseline": 47369
   },
   {
     "id": 256,
-    "week": "2023-01-14",
-    "currentWeek": 22549,
+    "week": "2023-01-21",
+    "currentWeek": 21455,
     "baseline": 40623
   },
   {
     "id": 257,
-    "week": "2023-01-14",
-    "currentWeek": 13333,
+    "week": "2023-01-21",
+    "currentWeek": 12566,
     "baseline": 25911
   },
   {
     "id": 258,
-    "week": "2023-01-14",
-    "currentWeek": 13355,
+    "week": "2023-01-21",
+    "currentWeek": 14260,
     "baseline": 29027
   },
   {
     "id": 259,
-    "week": "2023-01-14",
-    "currentWeek": 66946,
+    "week": "2023-01-21",
+    "currentWeek": 66342,
     "baseline": 148103
   },
   {
     "id": 260,
-    "week": "2023-01-14",
-    "currentWeek": 8363,
+    "week": "2023-01-21",
+    "currentWeek": 8591,
     "baseline": 20336
   },
   {
     "id": 261,
-    "week": "2023-01-14",
-    "currentWeek": 67300,
+    "week": "2023-01-21",
+    "currentWeek": 69565,
     "baseline": 155263
   },
   {
     "id": 262,
-    "week": "2023-01-14",
-    "currentWeek": 20500,
+    "week": "2023-01-21",
+    "currentWeek": 20628,
     "baseline": 50824
   },
   {
     "id": 263,
-    "week": "2023-01-14",
-    "currentWeek": 36440,
+    "week": "2023-01-21",
+    "currentWeek": 38626,
     "baseline": 91271
   },
   {
     "id": 264,
-    "week": "2023-01-14",
-    "currentWeek": 48204,
+    "week": "2023-01-21",
+    "currentWeek": 51192,
     "baseline": 121988
   },
   {
     "id": 265,
-    "week": "2023-01-14",
-    "currentWeek": 45630,
+    "week": "2023-01-21",
+    "currentWeek": 45669,
     "baseline": 109817
   },
   {
     "id": 266,
-    "week": "2023-01-14",
-    "currentWeek": 30580,
+    "week": "2023-01-21",
+    "currentWeek": 30744,
     "baseline": 74120
   },
   {
     "id": 268,
-    "week": "2023-01-14",
-    "currentWeek": 9095,
+    "week": "2023-01-21",
+    "currentWeek": 9402,
     "baseline": 21066
   },
   {
     "id": 269,
-    "week": "2023-01-14",
-    "currentWeek": 17347,
+    "week": "2023-01-21",
+    "currentWeek": 17955,
     "baseline": 38913
   },
   {
     "id": 270,
-    "week": "2023-01-14",
-    "currentWeek": 18337,
+    "week": "2023-01-21",
+    "currentWeek": 18897,
     "baseline": 49893
   },
   {
     "id": 271,
-    "week": "2023-01-14",
-    "currentWeek": 29771,
+    "week": "2023-01-21",
+    "currentWeek": 30392,
     "baseline": 89409
   },
   {
     "id": 272,
-    "week": "2023-01-14",
-    "currentWeek": 9034,
+    "week": "2023-01-21",
+    "currentWeek": 9375,
     "baseline": 27004
   },
   {
     "id": 273,
-    "week": "2023-01-14",
-    "currentWeek": 26826,
+    "week": "2023-01-21",
+    "currentWeek": 28271,
     "baseline": 83938
   },
   {
     "id": 276,
-    "week": "2023-01-14",
-    "currentWeek": 38148,
+    "week": "2023-01-21",
+    "currentWeek": 41685,
     "baseline": 146756
   },
   {
     "id": 277,
-    "week": "2023-01-14",
-    "currentWeek": 31720,
+    "week": "2023-01-21",
+    "currentWeek": 32351,
     "baseline": 104530
   },
   {
     "id": 278,
-    "week": "2023-01-14",
-    "currentWeek": 77531,
+    "week": "2023-01-21",
+    "currentWeek": 90331,
     "baseline": 195143
   },
   {
     "id": 279,
-    "week": "2023-01-14",
-    "currentWeek": 113979,
+    "week": "2023-01-21",
+    "currentWeek": 117806,
     "baseline": 220057
   },
   {
     "id": 280,
-    "week": "2023-01-14",
-    "currentWeek": 10490,
+    "week": "2023-01-21",
+    "currentWeek": 12853,
     "baseline": 27067
   },
   {
     "id": 282,
-    "week": "2023-01-14",
-    "currentWeek": 3917,
+    "week": "2023-01-21",
+    "currentWeek": 3940,
     "baseline": 10165
   },
   {
     "id": 283,
-    "week": "2023-01-14",
-    "currentWeek": 20592,
+    "week": "2023-01-21",
+    "currentWeek": 20767,
     "baseline": 58671
   },
   {
     "id": 284,
-    "week": "2023-01-14",
-    "currentWeek": 20457,
+    "week": "2023-01-21",
+    "currentWeek": 20792,
     "baseline": 59402
   },
   {
     "id": 286,
-    "week": "2023-01-14",
-    "currentWeek": 13451,
+    "week": "2023-01-21",
+    "currentWeek": 13297,
     "baseline": 28923
   },
   {
     "id": 287,
-    "week": "2023-01-14",
-    "currentWeek": 9014,
+    "week": "2023-01-21",
+    "currentWeek": 9296,
     "baseline": 14019
   },
   {
     "id": 288,
-    "week": "2023-01-14",
-    "currentWeek": 11912,
+    "week": "2023-01-21",
+    "currentWeek": 12535,
     "baseline": 34932
   },
   {
     "id": 289,
-    "week": "2023-01-14",
-    "currentWeek": 16029,
+    "week": "2023-01-21",
+    "currentWeek": 16652,
     "baseline": 53523
   },
   {
     "id": 290,
-    "week": "2023-01-14",
-    "currentWeek": 11278,
+    "week": "2023-01-21",
+    "currentWeek": 11908,
     "baseline": 33024
   },
   {
     "id": 291,
-    "week": "2023-01-14",
-    "currentWeek": 10408,
+    "week": "2023-01-21",
+    "currentWeek": 11382,
     "baseline": 30810
   },
   {
     "id": 292,
-    "week": "2023-01-14",
-    "currentWeek": 16482,
+    "week": "2023-01-21",
+    "currentWeek": 14699,
     "baseline": 33623
   },
   {
     "id": 293,
-    "week": "2023-01-14",
-    "currentWeek": 20357,
+    "week": "2023-01-21",
+    "currentWeek": 22048,
     "baseline": 42737
   },
   {
     "id": 294,
-    "week": "2023-01-14",
-    "currentWeek": 11473,
+    "week": "2023-01-21",
+    "currentWeek": 12382,
     "baseline": 23471
   },
   {
     "id": 295,
-    "week": "2023-01-14",
-    "currentWeek": 25835,
+    "week": "2023-01-21",
+    "currentWeek": 27457,
     "baseline": 55814
   },
   {
     "id": 296,
-    "week": "2023-01-14",
-    "currentWeek": 14075,
+    "week": "2023-01-21",
+    "currentWeek": 15207,
     "baseline": 30014
   },
   {
     "id": 297,
-    "week": "2023-01-14",
-    "currentWeek": 5889,
+    "week": "2023-01-21",
+    "currentWeek": 6365,
     "baseline": 10586
   },
   {
     "id": 298,
-    "week": "2023-01-14",
-    "currentWeek": 18557,
+    "week": "2023-01-21",
+    "currentWeek": 20618,
     "baseline": 35848
   },
   {
     "id": 299,
-    "week": "2023-01-14",
-    "currentWeek": 20942,
+    "week": "2023-01-21",
+    "currentWeek": 21663,
     "baseline": 39717
   },
   {
     "id": 300,
-    "week": "2023-01-14",
-    "currentWeek": 22180,
+    "week": "2023-01-21",
+    "currentWeek": 24213,
     "baseline": 44151
   },
   {
     "id": 301,
-    "week": "2023-01-14",
-    "currentWeek": 30067,
+    "week": "2023-01-21",
+    "currentWeek": 33151,
     "baseline": 67359
   },
   {
     "id": 303,
-    "week": "2023-01-14",
-    "currentWeek": 29099,
+    "week": "2023-01-21",
+    "currentWeek": 30703,
     "baseline": 71504
   },
   {
     "id": 304,
-    "week": "2023-01-14",
-    "currentWeek": 26021,
+    "week": "2023-01-21",
+    "currentWeek": 27048,
     "baseline": 56117
   },
   {
     "id": 305,
-    "week": "2023-01-14",
-    "currentWeek": 30693,
+    "week": "2023-01-21",
+    "currentWeek": 33407,
     "baseline": 74451
   },
   {
     "id": 306,
-    "week": "2023-01-14",
-    "currentWeek": 18852,
+    "week": "2023-01-21",
+    "currentWeek": 20451,
     "baseline": 45076
   },
   {
     "id": 307,
-    "week": "2023-01-14",
-    "currentWeek": 24562,
+    "week": "2023-01-21",
+    "currentWeek": 27964,
     "baseline": 82923
   },
   {
     "id": 308,
-    "week": "2023-01-14",
-    "currentWeek": 27516,
+    "week": "2023-01-21",
+    "currentWeek": 29126,
     "baseline": 69870
   },
   {
     "id": 309,
-    "week": "2023-01-14",
-    "currentWeek": 29882,
+    "week": "2023-01-21",
+    "currentWeek": 31427,
     "baseline": 71357
   },
   {
     "id": 310,
-    "week": "2023-01-14",
-    "currentWeek": 80274,
+    "week": "2023-01-21",
+    "currentWeek": 85488,
     "baseline": 221113
   },
   {
     "id": 311,
-    "week": "2023-01-14",
-    "currentWeek": 40864,
+    "week": "2023-01-21",
+    "currentWeek": 43433,
     "baseline": 107044
   },
   {
     "id": 312,
-    "week": "2023-01-14",
-    "currentWeek": 34251,
+    "week": "2023-01-21",
+    "currentWeek": 35206,
     "baseline": 89953
   },
   {
     "id": 313,
-    "week": "2023-01-14",
-    "currentWeek": 84400,
+    "week": "2023-01-21",
+    "currentWeek": 86700,
     "baseline": 233353
   },
   {
     "id": 314,
-    "week": "2023-01-14",
-    "currentWeek": 47135,
+    "week": "2023-01-21",
+    "currentWeek": 48118,
     "baseline": 132213
   },
   {
     "id": 316,
-    "week": "2023-01-14",
-    "currentWeek": 50298,
+    "week": "2023-01-21",
+    "currentWeek": 50279,
     "baseline": 152973
   },
   {
     "id": 318,
-    "week": "2023-01-14",
-    "currentWeek": 150667,
+    "week": "2023-01-21",
+    "currentWeek": 157476,
     "baseline": 498547
   },
   {
     "id": 319,
-    "week": "2023-01-14",
-    "currentWeek": 26212,
+    "week": "2023-01-21",
+    "currentWeek": 28351,
     "baseline": 85041
   },
   {
     "id": 320,
-    "week": "2023-01-14",
-    "currentWeek": 29083,
+    "week": "2023-01-21",
+    "currentWeek": 28540,
     "baseline": 87188
   },
   {
     "id": 321,
-    "week": "2023-01-14",
-    "currentWeek": 15501,
+    "week": "2023-01-21",
+    "currentWeek": 16575,
     "baseline": 49713
   },
   {
     "id": 323,
-    "week": "2023-01-14",
-    "currentWeek": 20941,
+    "week": "2023-01-21",
+    "currentWeek": 21862,
     "baseline": 63598
   },
   {
     "id": 324,
-    "week": "2023-01-14",
-    "currentWeek": 23730,
+    "week": "2023-01-21",
+    "currentWeek": 24504,
     "baseline": 84960
   },
   {
     "id": 325,
-    "week": "2023-01-14",
-    "currentWeek": 9470,
+    "week": "2023-01-21",
+    "currentWeek": 10021,
     "baseline": 37777
   },
   {
     "id": 326,
-    "week": "2023-01-14",
-    "currentWeek": 10713,
+    "week": "2023-01-21",
+    "currentWeek": 11984,
     "baseline": 29920
   },
   {
     "id": 327,
-    "week": "2023-01-14",
-    "currentWeek": 37161,
+    "week": "2023-01-21",
+    "currentWeek": 39022,
     "baseline": 112734
   },
   {
     "id": 328,
-    "week": "2023-01-14",
-    "currentWeek": 24454,
+    "week": "2023-01-21",
+    "currentWeek": 25415,
     "baseline": 82860
   },
   {
     "id": 329,
-    "week": "2023-01-14",
-    "currentWeek": 14133,
+    "week": "2023-01-21",
+    "currentWeek": 14418,
     "baseline": 50149
   },
   {
     "id": 333,
-    "week": "2023-01-14",
-    "currentWeek": 32387,
+    "week": "2023-01-21",
+    "currentWeek": 33660,
     "baseline": 132942
   },
   {
     "id": 334,
-    "week": "2023-01-14",
-    "currentWeek": 11943,
+    "week": "2023-01-21",
+    "currentWeek": 12109,
     "baseline": 34161
   },
   {
     "id": 336,
-    "week": "2023-01-14",
-    "currentWeek": 17575,
+    "week": "2023-01-21",
+    "currentWeek": 17641,
     "baseline": 44168
   },
   {
     "id": 337,
-    "week": "2023-01-14",
-    "currentWeek": 22218,
+    "week": "2023-01-21",
+    "currentWeek": 22377,
     "baseline": 60220
   },
   {
     "id": 339,
-    "week": "2023-01-14",
-    "currentWeek": 8597,
+    "week": "2023-01-21",
+    "currentWeek": 9242,
     "baseline": 23168
   },
   {
     "id": 340,
-    "week": "2023-01-14",
-    "currentWeek": 16111,
+    "week": "2023-01-21",
+    "currentWeek": 16688,
     "baseline": 43832
   },
   {
     "id": 341,
-    "week": "2023-01-14",
-    "currentWeek": 9929,
+    "week": "2023-01-21",
+    "currentWeek": 10468,
     "baseline": 25718
   },
   {
     "id": 343,
-    "week": "2023-01-14",
-    "currentWeek": 9238,
+    "week": "2023-01-21",
+    "currentWeek": 9845,
     "baseline": 26216
   },
   {
     "id": 344,
-    "week": "2023-01-14",
-    "currentWeek": 11578,
+    "week": "2023-01-21",
+    "currentWeek": 11922,
     "baseline": 28356
   },
   {
     "id": 345,
-    "week": "2023-01-14",
-    "currentWeek": 65438,
+    "week": "2023-01-21",
+    "currentWeek": 68821,
     "baseline": 153860
   },
   {
     "id": 346,
-    "week": "2023-01-14",
-    "currentWeek": 18526,
+    "week": "2023-01-21",
+    "currentWeek": 19663,
     "baseline": 37891
   },
   {
     "id": 347,
-    "week": "2023-01-14",
-    "currentWeek": 13802,
+    "week": "2023-01-21",
+    "currentWeek": 14512,
     "baseline": 30297
   },
   {
     "id": 348,
-    "week": "2023-01-14",
-    "currentWeek": 12927,
+    "week": "2023-01-21",
+    "currentWeek": 13325,
     "baseline": 28218
   },
   {
     "id": 349,
-    "week": "2023-01-14",
-    "currentWeek": 6933,
+    "week": "2023-01-21",
+    "currentWeek": 7228,
     "baseline": 13154
   },
   {
     "id": 350,
-    "week": "2023-01-14",
-    "currentWeek": 12334,
+    "week": "2023-01-21",
+    "currentWeek": 12839,
     "baseline": 26421
   },
   {
     "id": 351,
-    "week": "2023-01-14",
-    "currentWeek": 6930,
+    "week": "2023-01-21",
+    "currentWeek": 7402,
     "baseline": 16530
   },
   {
     "id": 352,
-    "week": "2023-01-14",
-    "currentWeek": 16147,
+    "week": "2023-01-21",
+    "currentWeek": 17448,
     "baseline": 32894
   },
   {
     "id": 353,
-    "week": "2023-01-14",
-    "currentWeek": 8611,
+    "week": "2023-01-21",
+    "currentWeek": 9053,
     "baseline": 20115
   },
   {
     "id": 354,
-    "week": "2023-01-14",
-    "currentWeek": 13694,
+    "week": "2023-01-21",
+    "currentWeek": 14597,
     "baseline": 31908
   },
   {
     "id": 355,
-    "week": "2023-01-14",
-    "currentWeek": 17677,
+    "week": "2023-01-21",
+    "currentWeek": 19136,
     "baseline": 36402
   },
   {
     "id": 356,
-    "week": "2023-01-14",
-    "currentWeek": 24668,
+    "week": "2023-01-21",
+    "currentWeek": 26364,
     "baseline": 55469
   },
   {
     "id": 357,
-    "week": "2023-01-14",
-    "currentWeek": 11829,
+    "week": "2023-01-21",
+    "currentWeek": 12469,
     "baseline": 24903
   },
   {
     "id": 358,
-    "week": "2023-01-14",
-    "currentWeek": 19502,
+    "week": "2023-01-21",
+    "currentWeek": 20674,
     "baseline": 41491
   },
   {
     "id": 359,
-    "week": "2023-01-14",
-    "currentWeek": 46810,
+    "week": "2023-01-21",
+    "currentWeek": 50509,
     "baseline": 111871
   },
   {
     "id": 360,
-    "week": "2023-01-14",
-    "currentWeek": 16525,
+    "week": "2023-01-21",
+    "currentWeek": 17200,
     "baseline": 42226
   },
   {
     "id": 361,
-    "week": "2023-01-14",
-    "currentWeek": 10031,
+    "week": "2023-01-21",
+    "currentWeek": 10376,
     "baseline": 22121
   },
   {
     "id": 362,
-    "week": "2023-01-14",
-    "currentWeek": 5272,
+    "week": "2023-01-21",
+    "currentWeek": 5407,
     "baseline": 11724
   },
   {
     "id": 363,
-    "week": "2023-01-14",
-    "currentWeek": 14112,
+    "week": "2023-01-21",
+    "currentWeek": 14804,
     "baseline": 34799
   },
   {
     "id": 364,
-    "week": "2023-01-14",
-    "currentWeek": 6492,
+    "week": "2023-01-21",
+    "currentWeek": 6696,
     "baseline": 15338
   },
   {
     "id": 365,
-    "week": "2023-01-14",
-    "currentWeek": 16032,
+    "week": "2023-01-21",
+    "currentWeek": 15224,
     "baseline": 37706
   },
   {
     "id": 366,
-    "week": "2023-01-14",
-    "currentWeek": 42650,
+    "week": "2023-01-21",
+    "currentWeek": 45952,
     "baseline": 91518
   },
   {
     "id": 367,
-    "week": "2023-01-14",
-    "currentWeek": 11613,
+    "week": "2023-01-21",
+    "currentWeek": 12332,
     "baseline": 24515
   },
   {
     "id": 368,
-    "week": "2023-01-14",
-    "currentWeek": 17641,
+    "week": "2023-01-21",
+    "currentWeek": 18391,
     "baseline": 37783
   },
   {
     "id": 369,
-    "week": "2023-01-14",
-    "currentWeek": 19649,
+    "week": "2023-01-21",
+    "currentWeek": 19408,
     "baseline": 38226
   },
   {
     "id": 370,
-    "week": "2023-01-14",
-    "currentWeek": 4951,
+    "week": "2023-01-21",
+    "currentWeek": 5531,
     "baseline": 11235
   },
   {
     "id": 371,
-    "week": "2023-01-14",
-    "currentWeek": 28587,
+    "week": "2023-01-21",
+    "currentWeek": 30254,
     "baseline": 61136
   },
   {
     "id": 372,
-    "week": "2023-01-14",
-    "currentWeek": 10257,
+    "week": "2023-01-21",
+    "currentWeek": 10672,
     "baseline": 18325
   },
   {
     "id": 373,
-    "week": "2023-01-14",
-    "currentWeek": 13886,
+    "week": "2023-01-21",
+    "currentWeek": 14301,
     "baseline": 28273
   },
   {
     "id": 374,
-    "week": "2023-01-14",
-    "currentWeek": 4137,
+    "week": "2023-01-21",
+    "currentWeek": 4358,
     "baseline": 6089
   },
   {
     "id": 375,
-    "week": "2023-01-14",
-    "currentWeek": 7082,
+    "week": "2023-01-21",
+    "currentWeek": 7335,
     "baseline": 20151
   },
   {
     "id": 376,
-    "week": "2023-01-14",
-    "currentWeek": 16320,
+    "week": "2023-01-21",
+    "currentWeek": 16334,
     "baseline": 35065
   },
   {
     "id": 377,
-    "week": "2023-01-14",
-    "currentWeek": 21337,
+    "week": "2023-01-21",
+    "currentWeek": 24074,
     "baseline": 48264
   },
   {
     "id": 378,
-    "week": "2023-01-14",
-    "currentWeek": 20105,
+    "week": "2023-01-21",
+    "currentWeek": 21172,
     "baseline": 40591
   },
   {
     "id": 379,
-    "week": "2023-01-14",
-    "currentWeek": 22089,
+    "week": "2023-01-21",
+    "currentWeek": 25809,
     "baseline": 47828
   },
   {
     "id": 380,
-    "week": "2023-01-14",
-    "currentWeek": 14409,
+    "week": "2023-01-21",
+    "currentWeek": 18083,
     "baseline": 29752
   },
   {
     "id": 381,
-    "week": "2023-01-14",
-    "currentWeek": 24296,
+    "week": "2023-01-21",
+    "currentWeek": 28227,
     "baseline": 52048
   },
   {
     "id": 382,
-    "week": "2023-01-14",
-    "currentWeek": 27679,
+    "week": "2023-01-21",
+    "currentWeek": 32822,
     "baseline": 59677
   },
   {
     "id": 383,
-    "week": "2023-01-14",
-    "currentWeek": 16823,
+    "week": "2023-01-21",
+    "currentWeek": 18161,
     "baseline": 34008
   },
   {
     "id": 384,
-    "week": "2023-01-14",
-    "currentWeek": 24622,
+    "week": "2023-01-21",
+    "currentWeek": 28719,
     "baseline": 59753
   },
   {
     "id": 385,
-    "week": "2023-01-14",
-    "currentWeek": 14594,
+    "week": "2023-01-21",
+    "currentWeek": 15778,
     "baseline": 32805
   },
   {
     "id": 386,
-    "week": "2023-01-14",
-    "currentWeek": 13926,
+    "week": "2023-01-21",
+    "currentWeek": 15691,
     "baseline": 29413
   },
   {
     "id": 387,
-    "week": "2023-01-14",
-    "currentWeek": 20477,
+    "week": "2023-01-21",
+    "currentWeek": 23041,
     "baseline": 47534
   },
   {
     "id": 388,
-    "week": "2023-01-14",
-    "currentWeek": 25780,
+    "week": "2023-01-21",
+    "currentWeek": 29990,
     "baseline": 50478
   },
   {
     "id": 391,
-    "week": "2023-01-14",
-    "currentWeek": 9636,
+    "week": "2023-01-21",
+    "currentWeek": 10190,
     "baseline": 19925
   },
   {
     "id": 392,
-    "week": "2023-01-14",
-    "currentWeek": 57934,
+    "week": "2023-01-21",
+    "currentWeek": 63746,
     "baseline": 164398
   },
   {
     "id": 393,
-    "week": "2023-01-14",
-    "currentWeek": 38266,
+    "week": "2023-01-21",
+    "currentWeek": 38570,
     "baseline": 87400
   },
   {
     "id": 394,
-    "week": "2023-01-14",
-    "currentWeek": 26918,
+    "week": "2023-01-21",
+    "currentWeek": 28523,
     "baseline": 62897
   },
   {
     "id": 395,
-    "week": "2023-01-14",
-    "currentWeek": 30184,
+    "week": "2023-01-21",
+    "currentWeek": 33192,
     "baseline": 76992
   },
   {
     "id": 396,
-    "week": "2023-01-14",
-    "currentWeek": 38398,
+    "week": "2023-01-21",
+    "currentWeek": 42051,
     "baseline": 98236
   },
   {
     "id": 397,
-    "week": "2023-01-14",
-    "currentWeek": 98151,
+    "week": "2023-01-21",
+    "currentWeek": 105587,
     "baseline": 256051
   },
   {
     "id": 398,
-    "week": "2023-01-14",
-    "currentWeek": 59332,
+    "week": "2023-01-21",
+    "currentWeek": 62804,
     "baseline": 147389
   },
   {
     "id": 399,
-    "week": "2023-01-14",
-    "currentWeek": 39860,
+    "week": "2023-01-21",
+    "currentWeek": 51829,
     "baseline": 127643
   },
   {
     "id": 403,
-    "week": "2023-01-14",
-    "currentWeek": 48438,
+    "week": "2023-01-21",
+    "currentWeek": 51185,
     "baseline": 165225
   },
   {
     "id": 404,
-    "week": "2023-01-14",
-    "currentWeek": 36810,
+    "week": "2023-01-21",
+    "currentWeek": 39513,
     "baseline": 108663
   },
   {
     "id": 405,
-    "week": "2023-01-14",
-    "currentWeek": 42650,
+    "week": "2023-01-21",
+    "currentWeek": 51313,
     "baseline": 160560
   },
   {
     "id": 407,
-    "week": "2023-01-14",
-    "currentWeek": 27657,
+    "week": "2023-01-21",
+    "currentWeek": 30537,
     "baseline": 99882
   },
   {
     "id": 409,
-    "week": "2023-01-14",
-    "currentWeek": 20022,
+    "week": "2023-01-21",
+    "currentWeek": 19911,
     "baseline": 68774
   },
   {
     "id": 413,
-    "week": "2023-01-14",
-    "currentWeek": 26537,
+    "week": "2023-01-21",
+    "currentWeek": 28404,
     "baseline": 106312
   },
   {
     "id": 414,
-    "week": "2023-01-14",
-    "currentWeek": 50848,
+    "week": "2023-01-21",
+    "currentWeek": 55474,
     "baseline": 166103
   },
   {
     "id": 416,
-    "week": "2023-01-14",
-    "currentWeek": 13629,
+    "week": "2023-01-21",
+    "currentWeek": 14365,
     "baseline": 28037
   },
   {
     "id": 417,
-    "week": "2023-01-14",
-    "currentWeek": 9086,
+    "week": "2023-01-21",
+    "currentWeek": 9709,
     "baseline": 19319
   },
   {
     "id": 418,
-    "week": "2023-01-14",
-    "currentWeek": 12775,
+    "week": "2023-01-21",
+    "currentWeek": 13300,
     "baseline": 27664
   },
   {
     "id": 419,
-    "week": "2023-01-14",
-    "currentWeek": 8944,
+    "week": "2023-01-21",
+    "currentWeek": 9354,
     "baseline": 22909
   },
   {
     "id": 420,
-    "week": "2023-01-14",
-    "currentWeek": 7154,
+    "week": "2023-01-21",
+    "currentWeek": 7450,
     "baseline": 18743
   },
   {
     "id": 421,
-    "week": "2023-01-14",
-    "currentWeek": 16808,
+    "week": "2023-01-21",
+    "currentWeek": 17334,
     "baseline": 43617
   },
   {
     "id": 422,
-    "week": "2023-01-14",
-    "currentWeek": 7691,
+    "week": "2023-01-21",
+    "currentWeek": 7975,
     "baseline": 19265
   },
   {
     "id": 423,
-    "week": "2023-01-14",
-    "currentWeek": 13247,
+    "week": "2023-01-21",
+    "currentWeek": 13364,
     "baseline": 30968
   },
   {
     "id": 424,
-    "week": "2023-01-14",
-    "currentWeek": 18449,
+    "week": "2023-01-21",
+    "currentWeek": 19010,
     "baseline": 50847
   },
   {
     "id": 425,
-    "week": "2023-01-14",
-    "currentWeek": 6083,
+    "week": "2023-01-21",
+    "currentWeek": 6321,
     "baseline": 14764
   },
   {
     "id": 426,
-    "week": "2023-01-14",
-    "currentWeek": 22217,
+    "week": "2023-01-21",
+    "currentWeek": 23270,
     "baseline": 43460
   },
   {
     "id": 427,
-    "week": "2023-01-14",
-    "currentWeek": 13855,
+    "week": "2023-01-21",
+    "currentWeek": 14801,
     "baseline": 40581
   },
   {
     "id": 428,
-    "week": "2023-01-14",
-    "currentWeek": 16017,
+    "week": "2023-01-21",
+    "currentWeek": 16860,
     "baseline": 39508
   },
   {
     "id": 429,
-    "week": "2023-01-14",
-    "currentWeek": 11367,
+    "week": "2023-01-21",
+    "currentWeek": 12575,
     "baseline": 26182
   },
   {
     "id": 430,
-    "week": "2023-01-14",
-    "currentWeek": 20625,
+    "week": "2023-01-21",
+    "currentWeek": 21192,
     "baseline": 50050
   },
   {
     "id": 431,
-    "week": "2023-01-14",
-    "currentWeek": 8084,
+    "week": "2023-01-21",
+    "currentWeek": 9294,
     "baseline": 18618
   },
   {
     "id": 432,
-    "week": "2023-01-14",
-    "currentWeek": 18198,
+    "week": "2023-01-21",
+    "currentWeek": 19281,
     "baseline": 41245
   },
   {
     "id": 433,
-    "week": "2023-01-14",
-    "currentWeek": 13650,
+    "week": "2023-01-21",
+    "currentWeek": 14072,
     "baseline": 30378
   },
   {
     "id": 434,
-    "week": "2023-01-14",
-    "currentWeek": 48342,
+    "week": "2023-01-21",
+    "currentWeek": 50490,
     "baseline": 129843
   },
   {
     "id": 436,
-    "week": "2023-01-14",
-    "currentWeek": 8907,
+    "week": "2023-01-21",
+    "currentWeek": 9667,
     "baseline": 21889
   },
   {
     "id": 437,
-    "week": "2023-01-14",
-    "currentWeek": 8478,
+    "week": "2023-01-21",
+    "currentWeek": 8751,
     "baseline": 18860
   },
   {
     "id": 438,
-    "week": "2023-01-14",
-    "currentWeek": 29044,
+    "week": "2023-01-21",
+    "currentWeek": 30972,
     "baseline": 80305
   },
   {
     "id": 439,
-    "week": "2023-01-14",
-    "currentWeek": 31191,
+    "week": "2023-01-21",
+    "currentWeek": 32810,
     "baseline": 88217
   },
   {
     "id": 440,
-    "week": "2023-01-14",
-    "currentWeek": 24376,
+    "week": "2023-01-21",
+    "currentWeek": 25858,
     "baseline": 63651
   },
   {
     "id": 441,
-    "week": "2023-01-14",
-    "currentWeek": 17923,
+    "week": "2023-01-21",
+    "currentWeek": 19137,
     "baseline": 50833
   },
   {
     "id": 442,
-    "week": "2023-01-14",
-    "currentWeek": 11383,
+    "week": "2023-01-21",
+    "currentWeek": 11997,
     "baseline": 25863
   },
   {
     "id": 443,
-    "week": "2023-01-14",
-    "currentWeek": 7967,
+    "week": "2023-01-21",
+    "currentWeek": 8286,
     "baseline": 21290
   },
   {
     "id": 444,
-    "week": "2023-01-14",
-    "currentWeek": 12640,
+    "week": "2023-01-21",
+    "currentWeek": 13721,
     "baseline": 24155
   },
   {
     "id": 445,
-    "week": "2023-01-14",
-    "currentWeek": 6991,
+    "week": "2023-01-21",
+    "currentWeek": 7371,
     "baseline": 17410
   },
   {
     "id": 446,
-    "week": "2023-01-14",
-    "currentWeek": 5931,
+    "week": "2023-01-21",
+    "currentWeek": 6429,
     "baseline": 13724
   },
   {
     "id": 447,
-    "week": "2023-01-14",
-    "currentWeek": 175145,
+    "week": "2023-01-21",
+    "currentWeek": 179254,
     "baseline": 337657
   },
   {
     "id": 448,
-    "week": "2023-01-14",
-    "currentWeek": 6887,
+    "week": "2023-01-21",
+    "currentWeek": 7377,
     "baseline": 38461
   },
   {
     "id": 449,
-    "week": "2023-01-14",
-    "currentWeek": 41093,
+    "week": "2023-01-21",
+    "currentWeek": 41630,
     "baseline": 72982
   },
   {
     "id": 450,
-    "week": "2023-01-14",
-    "currentWeek": 83074,
+    "week": "2023-01-21",
+    "currentWeek": 84315,
     "baseline": 122330
   },
   {
     "id": 451,
-    "week": "2023-01-14",
-    "currentWeek": 90365,
+    "week": "2023-01-21",
+    "currentWeek": 92284,
     "baseline": 131383
   },
   {
     "id": 452,
-    "week": "2023-01-14",
-    "currentWeek": 58995,
+    "week": "2023-01-21",
+    "currentWeek": 61942,
     "baseline": 100850
   },
   {
     "id": 453,
-    "week": "2023-01-14",
-    "currentWeek": 56833,
+    "week": "2023-01-21",
+    "currentWeek": 59227,
     "baseline": 93474
   },
   {
     "id": 455,
-    "week": "2023-01-14",
-    "currentWeek": 19288,
+    "week": "2023-01-21",
+    "currentWeek": 19189,
     "baseline": 29859
   },
   {
     "id": 456,
-    "week": "2023-01-14",
-    "currentWeek": 52716,
+    "week": "2023-01-21",
+    "currentWeek": 55622,
     "baseline": 102194
   },
   {
     "id": 457,
-    "week": "2023-01-14",
-    "currentWeek": 16561,
+    "week": "2023-01-21",
+    "currentWeek": 16952,
     "baseline": 35948
   },
   {
     "id": 458,
-    "week": "2023-01-14",
-    "currentWeek": 34234,
+    "week": "2023-01-21",
+    "currentWeek": 35228,
     "baseline": 76546
   },
   {
     "id": 459,
-    "week": "2023-01-14",
-    "currentWeek": 25270,
+    "week": "2023-01-21",
+    "currentWeek": 25720,
     "baseline": 58638
   },
   {
     "id": 460,
-    "week": "2023-01-14",
-    "currentWeek": 21137,
+    "week": "2023-01-21",
+    "currentWeek": 21540,
     "baseline": 55258
   },
   {
     "id": 461,
-    "week": "2023-01-14",
-    "currentWeek": 31536,
+    "week": "2023-01-21",
+    "currentWeek": 32882,
     "baseline": 96260
   },
   {
     "id": 463,
-    "week": "2023-01-14",
-    "currentWeek": 12992,
+    "week": "2023-01-21",
+    "currentWeek": 14601,
     "baseline": 36408
   },
   {
     "id": 464,
-    "week": "2023-01-14",
-    "currentWeek": 30211,
+    "week": "2023-01-21",
+    "currentWeek": 31523,
     "baseline": 88452
   },
   {
     "id": 471,
-    "week": "2023-01-14",
-    "currentWeek": 44922,
+    "week": "2023-01-21",
+    "currentWeek": 44773,
     "baseline": 116642
   },
   {
     "id": 475,
-    "week": "2023-01-14",
-    "currentWeek": 40357,
+    "week": "2023-01-21",
+    "currentWeek": 43140,
     "baseline": 117728
   },
   {
     "id": 476,
-    "week": "2023-01-14",
-    "currentWeek": 47546,
+    "week": "2023-01-21",
+    "currentWeek": 49775,
     "baseline": 158520
   },
   {
     "id": 477,
-    "week": "2023-01-14",
-    "currentWeek": 60000,
+    "week": "2023-01-21",
+    "currentWeek": 65098,
     "baseline": 180288
   },
   {
     "id": 601,
-    "week": "2023-01-14",
-    "currentWeek": 85207,
+    "week": "2023-01-21",
+    "currentWeek": 89044,
     "baseline": 277293
   },
   {
     "id": 602,
-    "week": "2023-01-14",
-    "currentWeek": 177526,
+    "week": "2023-01-21",
+    "currentWeek": 187750,
     "baseline": 599943
   },
   {
     "id": 603,
-    "week": "2023-01-14",
-    "currentWeek": 26747,
+    "week": "2023-01-21",
+    "currentWeek": 30545,
     "baseline": 75200
   },
   {
     "id": 604,
-    "week": "2023-01-14",
-    "currentWeek": 54257,
+    "week": "2023-01-21",
+    "currentWeek": 58951,
     "baseline": 154115
   },
   {
     "id": 605,
-    "week": "2023-01-14",
-    "currentWeek": 55002,
+    "week": "2023-01-21",
+    "currentWeek": 59119,
     "baseline": 117178
   },
   {
     "id": 606,
-    "week": "2023-01-14",
-    "currentWeek": 45355,
+    "week": "2023-01-21",
+    "currentWeek": 47508,
     "baseline": 134448
   },
   {
     "id": 607,
-    "week": "2023-01-14",
-    "currentWeek": 217258,
+    "week": "2023-01-21",
+    "currentWeek": 222517,
     "baseline": 744704
   },
   {
     "id": 608,
-    "week": "2023-01-14",
-    "currentWeek": 28167,
+    "week": "2023-01-21",
+    "currentWeek": 29124,
     "baseline": 74907
   },
   {
     "id": 609,
-    "week": "2023-01-14",
-    "currentWeek": 94045,
+    "week": "2023-01-21",
+    "currentWeek": 99005,
     "baseline": 320771
   },
   {
     "id": 610,
-    "week": "2023-01-14",
-    "currentWeek": 247685,
+    "week": "2023-01-21",
+    "currentWeek": 262372,
     "baseline": 854307
   },
   {
     "id": 611,
-    "week": "2023-01-14",
-    "currentWeek": 385857,
+    "week": "2023-01-21",
+    "currentWeek": 404024,
     "baseline": 1227289
   },
   {
     "id": 612,
-    "week": "2023-01-14",
-    "currentWeek": 100867,
+    "week": "2023-01-21",
+    "currentWeek": 106743,
     "baseline": 358935
   },
   {
     "id": 613,
-    "week": "2023-01-14",
-    "currentWeek": 107325,
+    "week": "2023-01-21",
+    "currentWeek": 112049,
     "baseline": 315848
   },
   {
     "id": 614,
-    "week": "2023-01-14",
-    "currentWeek": 138484,
+    "week": "2023-01-21",
+    "currentWeek": 150193,
     "baseline": 436373
   },
   {
     "id": 615,
-    "week": "2023-01-14",
-    "currentWeek": 16328,
+    "week": "2023-01-21",
+    "currentWeek": 16154,
     "baseline": 28615
   },
   {
     "id": 616,
-    "week": "2023-01-14",
-    "currentWeek": 162822,
+    "week": "2023-01-21",
+    "currentWeek": 167742,
     "baseline": 323492
   },
   {
     "id": 617,
-    "week": "2023-01-14",
-    "currentWeek": 109282,
+    "week": "2023-01-21",
+    "currentWeek": 109059,
     "baseline": 263130
   },
   {
     "id": 618,
-    "week": "2023-01-14",
-    "currentWeek": 79218,
+    "week": "2023-01-21",
+    "currentWeek": 81637,
     "baseline": 267998
   },
   {
     "id": 619,
-    "week": "2023-01-14",
-    "currentWeek": 64016,
+    "week": "2023-01-21",
+    "currentWeek": 66409,
     "baseline": 228338
   },
   {
     "id": 620,
-    "week": "2023-01-14",
-    "currentWeek": 63401,
+    "week": "2023-01-21",
+    "currentWeek": 71396,
     "baseline": 195343
   },
   {
     "id": 621,
-    "week": "2023-01-14",
-    "currentWeek": 22259,
+    "week": "2023-01-21",
+    "currentWeek": 23842,
     "baseline": 55326
   },
   {
     "id": 622,
-    "week": "2023-01-14",
-    "currentWeek": 57464,
+    "week": "2023-01-21",
+    "currentWeek": 65437,
     "baseline": 171665
   },
   {
     "id": 623,
-    "week": "2023-01-14",
-    "currentWeek": 96529,
+    "week": "2023-01-21",
+    "currentWeek": 96782,
     "baseline": 295178
   },
   {
     "id": 624,
-    "week": "2023-01-14",
-    "currentWeek": 108431,
+    "week": "2023-01-21",
+    "currentWeek": 115841,
     "baseline": 398544
   },
   {
     "id": 625,
-    "week": "2023-01-14",
-    "currentWeek": 59144,
+    "week": "2023-01-21",
+    "currentWeek": 60200,
     "baseline": 166436
   },
   {
     "id": 626,
-    "week": "2023-01-14",
-    "currentWeek": 32664,
+    "week": "2023-01-21",
+    "currentWeek": 33520,
     "baseline": 96289
   },
   {
     "id": 627,
-    "week": "2023-01-14",
-    "currentWeek": 11739,
+    "week": "2023-01-21",
+    "currentWeek": 12071,
     "baseline": 38041
   },
   {
     "id": 628,
-    "week": "2023-01-14",
-    "currentWeek": 150089,
+    "week": "2023-01-21",
+    "currentWeek": 163683,
     "baseline": 518410
   },
   {
     "id": 629,
-    "week": "2023-01-14",
-    "currentWeek": 27301,
+    "week": "2023-01-21",
+    "currentWeek": 27351,
     "baseline": 88898
   },
   {
     "id": 630,
-    "week": "2023-01-14",
-    "currentWeek": 54541,
+    "week": "2023-01-21",
+    "currentWeek": 57172,
     "baseline": 113730
   },
   {
     "id": 635,
-    "week": "2023-01-14",
-    "currentWeek": 56089,
+    "week": "2023-01-21",
+    "currentWeek": 59764,
     "baseline": 199633
   },
   {
     "id": 636,
-    "week": "2023-01-14",
-    "currentWeek": 71601,
+    "week": "2023-01-21",
+    "currentWeek": 83932,
     "baseline": 238422
   }
 ]
