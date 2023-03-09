@@ -75,7 +75,7 @@ us_df=pd.DataFrame(ele_list)
 
 us_df=us_df[~(us_df.us_rate =="")]
 us_df['us_rate']=us_df['us_rate'].astype(float)
-years=['2022', '2021']
+years=['2023','2022', '2021']
 us_df=us_df[us_df.year.isin(years)].reset_index(drop=True)
 us_df['month']=pd.Series(pd.period_range("1/1/2021", freq="M", periods=len(us_df))).astype(str)
 
@@ -116,7 +116,7 @@ column_names=['year', "01","02","03","04","05","06","07","08","09","10","11","12
 # insert new columns names into the original dataset
 jobs_df.columns=column_names
 #filter data
-pandemic_years=[2020, 2021, 2022]
+pandemic_years=[2020, 2021, 2022, 2023]
 jobs_df=jobs_df[jobs_df.year.isin(pandemic_years)].reset_index(drop=True)
 # flatten the data to. make it graphics ready
 jobs_df=jobs_df.melt(id_vars=['year'])
@@ -162,7 +162,7 @@ open('raw_data/earnings.xlsx', 'wb').write(r.content)
 
 earnings=pd.read_excel('raw_data/earnings.xlsx', sheet_name='average weekly earnings', skiprows=12)
 tp_earnings=earnings.set_index('Year').T[[
-    2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020, 2021,2022]]
+    2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020, 2021,2022, 2023]]
 
 earnings=tp_earnings.T.reset_index().drop(columns='Annual')
 
