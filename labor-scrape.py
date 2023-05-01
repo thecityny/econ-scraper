@@ -366,18 +366,36 @@ final_hotel.to_json('data/hotel_demand.json', orient='records')
 #     print("No subway file")
 
 
-# In[14]:
+# In[25]:
 
 
 riders_df=pd.read_json("https://data.ny.gov/api/id/vxuj-8kew.json?$query=select%20*%2C%20%3Aid%20limit%2010000")
 
 riders_df=riders_df[['date', 'subways_total_estimated_ridership', 'subways_of_comparable_pre_pandemic_day']]
 
-riders_df['date']=pd.to_datetime(riders_df.date).dt.strftime("%Y-%m-%d")
 
 riders_df.columns=['date', 'riders', 'riders_recovered']
 
+riders_df['date']=pd.to_datetime(riders_df.date)
+
+riders_df=riders_df.sort_values("date")
+
+riders_df['avg_recovery']=(riders_df.riders_recovered.rolling(window=7).mean()*100).round()
+riders_df['date']=pd.to_datetime(riders_df.date).dt.strftime("%Y-%m-%d")
+
 riders_df.to_json('data/subway_riders.json', orient='records')
+
+
+# In[20]:
+
+
+
+
+
+# In[23]:
+
+
+riders_df
 
 
 # In[ ]:
