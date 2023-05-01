@@ -138,7 +138,7 @@ jobs_df['jobs']=(jobs_df.jobs*1000).astype(int)
 # sort columbs by datetime
 jobs_df=jobs_df.sort_values('date').reset_index(drop=True)
 #create a job loss column from baseline: Feb 2020
-jobs_df['jobloss_from_feb2020']=(jobs_df['jobs']-4713000).astype(int)
+jobs_df['jobloss_from_feb2020']=(jobs_df['jobs']-4715100.0).astype(int)
 jobs_df['jobs_added']=jobs_df.jobs.diff().fillna(0)
 #create two separate datasets
 jobs_added=jobs_df[['month','jobs_added']]
@@ -233,7 +233,7 @@ real_earnings.to_json('data/earnings.json', orient='records')
 
 # ## INDUSTRY
 
-# In[65]:
+# In[8]:
 
 
 # 'Management, Scientific, and Technical Consulting Services'
@@ -255,10 +255,11 @@ trans=trans[trans[0].str.contains("Employment Data")].reset_index(drop=True)
 trans[['indicator', 'release_date','no.', "name", "URL" ]]=trans[0].str.split(",", expand=True)
 trans=trans[["name",'release_date',  "URL" ]]
 trans=trans.replace('"', "", regex=True)
+trans['release_date']=trans.release_date.replace({"4/21/203":'4/21/2023'})
 trans['release_date']=pd.to_datetime(trans.release_date)
 trans=trans[~trans.name.str.contains("NSA")]
 sorted_trans=trans.sort_values('release_date', ascending=False)
-
+sorted_trans
 # download excel file from the link in url
 url=sorted_trans.URL[0]
 baseURL='https://www1.nyc.gov'
@@ -353,10 +354,30 @@ final_hotel=merged_hotel[['month', 'demand', 'pct_chng']].reset_index(drop=True)
 final_hotel.to_json('data/hotel_demand.json', orient='records')
 
 
-# In[59]:
+# # Subway ridership
+
+# In[11]:
 
 
+# try: 
+#     !wget -O raw_data/subway.csv "https://data.ny.gov/api/views/vxuj-8kew/rows.csv?accessType=DOWNLOAD&sorting=true"
+# except:
+#     pass
+#     print("No subway file")
 
+
+# In[14]:
+
+
+riders_df=pd.read_json("https://data.ny.gov/api/id/vxuj-8kew.json?$query=select%20*%2C%20%3Aid%20limit%2010000")
+
+riders_df=riders_df[['date', 'subways_total_estimated_ridership', 'subways_of_comparable_pre_pandemic_day']]
+
+riders_df['date']=pd.to_datetime(riders_df.date).dt.strftime("%Y-%m-%d")
+
+riders_df.columns=['date', 'riders', 'riders_recovered']
+
+riders_df.to_json('data/subway_riders.json', orient='records')
 
 
 # In[ ]:
