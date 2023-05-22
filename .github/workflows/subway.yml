@@ -1,1 +1,32 @@
+name: Scrape econ data
 
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 18 * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v3
+    - name: Use Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        cache: 'pip'
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    - name: Fetch latest data
+      run: python subway.py
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        timestamp=$(date -u --iso-8601=seconds)
+        if [[ $(git status --porcelain=v1 2>/dev/null | wc -l) -gt 0 ]]; then echo "{\"timestamp\": \"${timestamp}\"}" > data/timestamp.json; fi
+        git add -A
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
