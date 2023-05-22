@@ -1,4 +1,4 @@
-name: Scrape subway ridership and Office and hotel occcupancy data
+name: Scrape ridership-occupancy data
 
 on:
   push:
