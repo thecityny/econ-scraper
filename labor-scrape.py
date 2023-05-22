@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[24]:
 
 
 import requests
@@ -237,7 +237,7 @@ real_earnings.to_json('data/earnings.json', orient='records')
 
 # ## INDUSTRY
 
-# In[8]:
+# In[28]:
 
 
 # 'Management, Scientific, and Technical Consulting Services'
@@ -304,7 +304,7 @@ column_names=transposed.columns[
 
 transposed=transposed[column_names]
 
-transposed['chngFromPrepandmic']=(
+transposed['chngFromPrepandamic']=(
     (transposed.iloc[:, 1]-transposed.iloc[:, -1]).div(transposed.iloc[:, -1])*100).round(1)
 
 sectors=['Finance and Insurance', 'Real Estate','Information', 'Professional, Scientific, and Technical Services',
@@ -317,5 +317,13 @@ cleaned_df=transposed[transposed.sector.isin(sectors)].reset_index(drop=True)
 
 cleaned_df['month']=cleaned_df.columns[1]
 
+cleaned_df=cleaned_df.sort_values("chngFromPrepandamic", ascending=False).reset_index(drop=True)
+
 cleaned_df.to_json('data/industry.json', orient='records')
+
+
+# In[ ]:
+
+
+
 
