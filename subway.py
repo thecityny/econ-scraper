@@ -38,6 +38,7 @@ riders_df.columns=['date', 'riders', 'riders_recovered']
 riders_df['date']=pd.to_datetime(riders_df.date)
 
 riders_df=riders_df.sort_values("date")
+riders_df=riders_df.drop_duplicates(subset=['date']).reset_index(drop=True)
 
 riders_df['avg_recovery']=(riders_df.riders_recovered.rolling(window=7).mean()*100).round()
 riders_df['date']=pd.to_datetime(riders_df.date).dt.strftime("%Y-%m-%d")
