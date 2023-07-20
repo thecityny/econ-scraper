@@ -142,7 +142,9 @@ jobs_df['jobs']=(jobs_df.jobs*1000).astype(int)
 # sort columbs by datetime
 jobs_df=jobs_df.sort_values('date').reset_index(drop=True)
 #create a job loss column from baseline: Feb 2020
-jobs_df['jobloss_from_feb2020']=(jobs_df['jobs']-4715100.0).astype(int)
+
+feb2020record=jobs_df.jobs[0]
+jobs_df['jobloss_from_feb2020']=(jobs_df['jobs']-feb2020record).astype(int)
 jobs_df['jobs_added']=jobs_df.jobs.diff().fillna(0)
 #create two separate datasets
 jobs_added=jobs_df[['month','jobs_added']]
