@@ -64,8 +64,8 @@ sheet_name = "hotel_occupancy"
 hotelURL = f'https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}'
 
 hotel=pd.read_csv(hotelURL) 
-demand=hotel[['period', 'demand2020', 'demand2021', 'demand2022']]
-change=hotel[['period', 'change2020', 'change2021', 'change2022']]
+demand=hotel[['period', 'demand2020', 'demand2021', 'demand2022', 'demand2023]]
+change=hotel[['period', 'change2020', 'change2021', 'change2022', 'change2023']]
 
 demand.columns=demand.columns.str.replace('demand',"")
 change.columns=demand.columns.str.replace('change',"")
