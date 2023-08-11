@@ -68,7 +68,7 @@ demand=hotel[['period', 'demand2020', 'demand2021', 'demand2022', 'demand2023]]
 change=hotel[['period', 'change2020', 'change2021', 'change2022', 'change2023']]
 
 demand.columns=demand.columns.str.replace('demand',"")
-change.columns=demand.columns.str.replace('change',"")
+change.columns=change.columns.str.replace('change',"")
 
 melted_demand=demand.melt(id_vars='period').dropna().rename(
     columns={'value':'demand', 'variable':'year'}).reset_index(drop=True)
