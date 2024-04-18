@@ -49,9 +49,9 @@ rate_df[['Labor Force', 'Employment', 'Emp/Pop', 'Unemp Rate']]=rate_df[[
 
 # pandemic_period=df[df.YEAR > '2000-01-01'].reset_index(drop=True)
 rate_df['month']=pd.to_datetime(rate_df['YEAR']).dt.strftime("%Y-%m")
-rate_df[['month', "Labor Force"]].to_json('data/labor.json', orient='records')
-rate_df[['month', "Employment"]].to_json('data/employment.json', orient='records')
-rate_df[['month', 'Emp/Pop']].to_json('data/empPop.json', orient='records')
+rate_df[['month', "Labor Force"]].dropna(subset=["Labor Force"]).to_json('data/labor.json', orient='records')
+rate_df[['month', "Employment"]].dropna(subset=["Employment"]).to_json('data/employment.json', orient='records')
+rate_df[['month', 'Emp/Pop']].dropna(subset=['Emp/Pop']).to_json('data/empPop.json', orient='records')
 
 
 # ## Unemployment rate
@@ -79,7 +79,7 @@ us_df=pd.DataFrame(ele_list)
 
 us_df=us_df[~(us_df.us_rate =="")]
 us_df['us_rate']=us_df['us_rate'].astype(float)
-years=['2023','2022', '2021']
+years=['2024','2023','2022', '2021']
 us_df=us_df[us_df.year.isin(years)].reset_index(drop=True)
 us_df['month']=pd.Series(pd.period_range("1/1/2021", freq="M", periods=len(us_df))).astype(str)
 
@@ -96,8 +96,7 @@ merged_rate['datetime']= pd.to_datetime(merged_rate.month)
 
 merged_rate=merged_rate.sort_values('datetime', ascending=False)[['month','us_rate','Unemp Rate'
                                                                  ]].reset_index(drop=True)
-merged_rate.to_json('data/rate.json', orient='records')
-
+merged_rate.dropna(subset=['Unemp Rate']).to_json('data/rate.json', orient='records')
 
 # ## Job Recovery
 
@@ -120,7 +119,7 @@ column_names=['year', "01","02","03","04","05","06","07","08","09","10","11","12
 # insert new columns names into the original dataset
 jobs_df.columns=column_names
 #filter data
-pandemic_years=[2020, 2021, 2022, 2023]
+pandemic_years=[2020, 2021, 2022, 2023, 2024]
 jobs_df=jobs_df[jobs_df.year.isin(pandemic_years)].reset_index(drop=True)
 # flatten the data to. make it graphics ready
 jobs_df=jobs_df.melt(id_vars=['year'])
@@ -302,7 +301,7 @@ transposed=filtered_df.set_index('month').T.reset_index().rename(columns={"index
 transposed['sector']=transposed.sector.str.strip()
 
 column_names=transposed.columns[
-    transposed.columns.str.contains(f'sector|2019-{latest_month}|2023-{latest_month}')].to_list()
+    transposed.columns.str.contains(f'sector|2019-{latest_month}|2024-{latest_month}')].to_list()
 
 transposed=transposed[column_names]
 
