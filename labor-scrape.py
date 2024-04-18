@@ -273,7 +273,7 @@ r= requests.get(baseURL+url, allow_redirects=True)
 
 open('raw_data/industry_data.csv', 'wb').write(r.content)
 # read the file
-ind_df=pd.read_csv('raw_data/industry_data.csv', skiprows=4)
+ind_df=pd.read_csv('raw_data/industry_data.csv', skiprows=3)
 ind_df=ind_df[1:].reset_index(drop=True)
 
 
